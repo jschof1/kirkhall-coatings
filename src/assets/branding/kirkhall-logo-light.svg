@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 56" fill="none" role="img" aria-labelledby="kirkhallLogoLightTitle kirkhallLogoLightDesc">
+  <title id="kirkhallLogoLightTitle">Kirkhall Wall Coatings</title>
+  <desc id="kirkhallLogoLightDesc">Light wordmark for dark backgrounds</desc>
+  <g transform="translate(0 4)">
+    <path fill="#f1f5f9" d="M24 3 46 25v20H2V25L24 3Z"/>
+    <rect x="33" y="9" width="6" height="11" fill="#f1f5f9"/>
+    <path fill="#94a3b8" d="M8 28h32v3H8z"/>
+    <path fill="#94a3b8" d="M8 34h32v3H8z"/>
+    <path fill="#94a3b8" d="M8 40h26v3H8z"/>
+  </g>
+  <text
+    x="56"
+    y="26"
+    fill="#f8fafc"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="19"
+    font-weight="800"
+    letter-spacing="-0.02em"
+  >KIRKHALL</text>
+  <text
+    x="56"
+    y="46"
+    fill="#cbd5e1"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="10"
+    font-weight="700"
+    letter-spacing="0.18em"
+  >WALL COATINGS</text>
+</svg>
