@@ -1,12 +1,12 @@
 export const siteSettings = {
   businessName: "Kirkhall Wall Coatings",
-  phone: "+44 7712 311478",
-  phoneFormatted: "+447712311478",
+  phone: "+44 7427 915070",
+  phoneFormatted: "+447427915070",
   email: "kvaledrywall@yahoo.co.uk",
   address: "Kirkhall Road, Newarthill, Motherwell, ML1 5BG",
   feedbackWebhook:
     "https://services.leadconnectorhq.com/hooks/WF7Y8qzBVOgw8fxKn8Q5/webhook-trigger/aXaXsPKiYnSNX9fKyTUG",
-  feedbackGoogleReviewUrl: "https://g.page/r/CXL9vhHFDhdiEBM/review",
+  feedbackGoogleReviewUrl: "https://search.google.com/local/writereview?placeid=ChIJ5fbJQIRtiEgR_weeyFBA_wE",
   quickFormWebhook:
     "https://services.leadconnectorhq.com/hooks/WF7Y8qzBVOgw8fxKn8Q5/webhook-trigger/5Lx8iELfcROhHth1kkS5",
   quoteFormWebhook:
@@ -78,7 +78,7 @@ export const siteConfig = {
   google: {
     gmbLink: siteSettings.feedbackGoogleReviewUrl,
     reviewLink: siteSettings.feedbackGoogleReviewUrl,
-    placeId: "",
+    placeId: "ChIJ5fbJQIRtiEgR_weeyFBA_wE",
     rating: 5.0,
     reviewCount: 150,
   },

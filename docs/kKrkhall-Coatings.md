@@ -8,7 +8,7 @@ Client Form Content:
 
 * **Business Name:** kKrkhall Coatings  
 * **Primary Contact (Name):** kevin vale  
-* **Primary Phone Number:** \+447712311478 (Notes: Client requested acquiring another phone number.)  
+* **Primary Phone Number:** \+447427915070 — canonical on https://kirkhall-wall-coatings.co.uk; align listings to this number.  
 * **Email:** [kvaledrywall@yahoo.co.uk](mailto:kvaledrywall@yahoo.co.uk)  
 * **Location:** Motherwell, ML1 5BG, GB (Locality: motherwell)
 
@@ -216,7 +216,7 @@ The content must clearly establish local authority and professional credentials:
 **Critical SEO Considerations**
 
 * **Google Business Profile (GBP):** Since there is no existing GBP, verification and optimization is critical. Set up as a Service Area Business (SAB) covering North Lanarkshire/Glasgow, centered on the Motherwell address (ML1 5BG). This is crucial for local map pack rankings.  
-* **NAP Consistency:** Ensure the business name (kKrkhall Coatings), phone number (+447712311478 or the new number if acquired), and address/service area are identical across the website and all new citations/listings.  
+* **NAP Consistency:** Ensure the business name (Kirkhall Wall Coatings), phone number (+447427915070), and address/service area are identical across the website and all new citations/listings.  
 * **Schema Markup:** Implement `LocalBusiness` schema, ensuring `serviceType` accurately reflects *Wall Coating Specialist* and *Roofing Contractor* to help Google categorize the business correctly.  
 * **Location Authority:** Use geo-specific keywords and local landmarks naturally within the content for the dedicated location pages (e.g., "Wall Coatings Cumbernauld").
 
