@@ -32,7 +32,7 @@ const SitemapPage = () => {
     <>
       <SEO 
         title={`Sitemap | ${siteConfig.business.name}`}
-        description={`Complete sitemap for ${siteConfig.business.name}. Find all our premium painting and decorating services, service areas, and important pages.`}
+        description={`Complete sitemap for ${siteConfig.business.name}. Find all our wall coating, roof refurbishment, and uPVC spraying services, service areas, and important pages.`}
         canonical={`${siteConfig.seo.siteUrl}/sitemap`}
       />
 
@@ -46,7 +46,7 @@ const SitemapPage = () => {
               Sitemap
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Navigate our complete website to find all our premium painting and decorating services, coverage areas, and helpful resources.
+              Navigate our complete website to find all our wall coating, roof refurbishment, and uPVC spraying services, service areas, and helpful resources.
             </p>
           </div>
 

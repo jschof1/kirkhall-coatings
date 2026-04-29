@@ -13,7 +13,7 @@ import { siteConfig, getPhoneLink } from "@/data/siteConfig";
 import { motion } from "framer-motion";
 
 // Image Imports
-import heroBg from "@/assets/services-shots/interior-painting.webp";
+import heroBg from "@/assets/kirkhall/kirkhall-hero-external-wall-coating-16x9.jpeg";
 
 const testimonials = [
   {
@@ -119,7 +119,7 @@ const ReviewsPage = () => {
           <div className="absolute inset-0 z-0">
             <img 
               src={heroBg}
-              alt="Premium Painting & Decorating Reviews"
+              alt="Premium Wall Coating & Roof Refurbishment Reviews"
               className="absolute inset-0 w-full h-full object-cover opacity-30"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-charcoal/90 via-charcoal/80 to-charcoal/90" />

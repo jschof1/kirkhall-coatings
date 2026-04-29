@@ -35,7 +35,7 @@ const ProductsGrid = ({ areaName }: ProductsGridProps) => {
             Our Services
           </span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-white mb-4">
-            Painting & Decorating
+            Wall Coatings & Refurbishment
           </h2>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
             Premium finishes and meticulous preparation for homes across {displayArea}

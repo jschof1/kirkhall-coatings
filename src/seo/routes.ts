@@ -111,7 +111,7 @@ const staticSeoRoutes: SeoRoute[] = [
     path: "/sitemap",
     outputPath: toOutputPath("/sitemap"),
     title: `Sitemap | ${siteConfig.business.name}`,
-    description: `Complete sitemap for ${siteConfig.business.name}. Find all our premium painting and decorating services, service areas, and important pages.`,
+    description: `Complete sitemap for ${siteConfig.business.name}. Find all our wall coating, roof refurbishment, and uPVC spraying services, service areas, and important pages.`,
     changefreq: "monthly",
     priority: 0.3,
     source: "static",
@@ -152,7 +152,7 @@ const staticSeoRoutes: SeoRoute[] = [
     outputPath: toOutputPath("/terms-of-service"),
     title: `Terms of Service ${siteConfig.seo.titleSuffix}`,
     description:
-      `Terms of Service for ${siteConfig.business.name}. Read our terms and conditions for painting and decorating services.`,
+      `Terms of Service for ${siteConfig.business.name}. Read our terms and conditions for wall coating and property refurbishment services.`,
     changefreq: "yearly",
     priority: 0.1,
     noindex: true,

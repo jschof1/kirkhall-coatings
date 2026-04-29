@@ -2,7 +2,7 @@ import { Phone, MapPin, Clock, ArrowUp } from "lucide-react";
 import { Link } from "react-router-dom";
 import { areas } from "@/data/areas";
 import { services } from "@/data/services";
-import logoImg from "@/assets/branding/kirkhall-logo-light.svg";
+import logoImg from "@/assets/branding/kirkhall-logo.png";
 import visaIcon from "@/assets/icons/payment/visa-202311.svg";
 import mastercardIcon from "@/assets/icons/payment/mastercard-202311.svg";
 import amexIcon from "@/assets/icons/payment/amex-202311.svg";

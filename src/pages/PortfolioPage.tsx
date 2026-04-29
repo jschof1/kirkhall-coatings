@@ -16,7 +16,7 @@ import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 
 // Image Imports
-import portfolioHeroBg from "@/assets/services-shots/interior-painting.webp";
+import portfolioHeroBg from "@/assets/kirkhall/kirkhall-hero-external-wall-coating-16x9.jpeg";
 
 const PortfolioPage = () => {
   const [selectedProject, setSelectedProject] = useState<typeof projects[0] | null>(null);

@@ -59,7 +59,7 @@ export const ExitIntentPopup = () => {
                 Wait! Get Your <span className="text-accent">Free Quote</span> Today
               </DialogTitle>
               <DialogDescription className="text-lg text-muted-foreground">
-                Transform your home with London's trusted decorators. Get a no-obligation quote for your painting & decorating project.
+                Transform your home with Motherwell's trusted wall coating specialists. Get a no-obligation quote for your external wall coatings, roof refurbishment, or uPVC spraying project.
               </DialogDescription>
             </DialogHeader>
 

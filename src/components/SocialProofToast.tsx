@@ -3,12 +3,12 @@ import { MapPin, CheckCircle2 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const socialProofData = [
-  { name: "Sarah T.", location: "Sevenoaks", action: "requested a quote", time: "2 minutes ago" },
-  { name: "Michael R.", location: "Tunbridge Wells", action: "booked a survey", time: "5 minutes ago" },
-  { name: "Emma W.", location: "Bromley", action: "requested a quote", time: "8 minutes ago" },
-  { name: "David M.", location: "Orpington", action: "booked a survey", time: "12 minutes ago" },
-  { name: "James H.", location: "Maidstone", action: "requested a quote", time: "15 minutes ago" },
-  { name: "Claire P.", location: "Canterbury", action: "booked a survey", time: "20 minutes ago" },
+  { name: "Sarah T.", location: "Motherwell", action: "requested a quote", time: "2 minutes ago" },
+  { name: "Michael R.", location: "Glasgow", action: "booked a survey", time: "5 minutes ago" },
+  { name: "Emma W.", location: "Airdrie", action: "requested a quote", time: "8 minutes ago" },
+  { name: "David M.", location: "Wishaw", action: "booked a survey", time: "12 minutes ago" },
+  { name: "James H.", location: "Cumbernauld", action: "requested a quote", time: "15 minutes ago" },
+  { name: "Claire P.", location: "Coatbridge", action: "booked a survey", time: "20 minutes ago" },
 ];
 
 const SocialProofToast = () => {

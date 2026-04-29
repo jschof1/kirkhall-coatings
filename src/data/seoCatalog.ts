@@ -61,7 +61,7 @@ export const serviceSeoEntries: ServiceSeoEntry[] = [
 
 export const projectSeoEntries: ProjectSeoEntry[] = [
   {
-    slug: "townhouse-interior-sevenoaks",
+    slug: "external-wall-coating-motherwell",
     title: "External Wall Coating Refurbishment",
     shortDescription:
       "Full external wall coating refurbishment with crack repair, prep, sealing and multi-coat masonry finish.",
@@ -69,7 +69,7 @@ export const projectSeoEntries: ProjectSeoEntry[] = [
     tag: "External Wall Coatings",
   },
   {
-    slug: "period-property-wallpapering",
+    slug: "roof-refurbishment-airdrie",
     title: "Roof Refurbishment and Coating",
     shortDescription:
       "Roof cleaning, targeted repairs and protective coating system to restore appearance and resilience.",
@@ -77,7 +77,7 @@ export const projectSeoEntries: ProjectSeoEntry[] = [
     tag: "Roof Refurbishment",
   },
   {
-    slug: "exterior-transformation-maidstone",
+    slug: "upvc-spraying-glasgow",
     title: "uPVC Window and Door Spraying",
     shortDescription:
       "Colour transformation of windows and doors with HVLP spray application for a factory-style finish.",
@@ -85,7 +85,7 @@ export const projectSeoEntries: ProjectSeoEntry[] = [
     tag: "uPVC Spraying",
   },
   {
-    slug: "woodwork-restoration-bromley",
+    slug: "combined-refurbishment-coatbridge",
     title: "External Walls and Roof Upgrade",
     shortDescription:
       "Combined external wall and roof refurbishment package for weather protection and curb appeal.",

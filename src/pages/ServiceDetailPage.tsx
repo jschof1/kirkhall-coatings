@@ -44,7 +44,7 @@ import { toast } from "sonner";
 import { formatPhoneNumber } from "@/lib/utils";
 
 // Image Imports
-import heroBg from "@/assets/photos/hero-bg.webp";
+import heroBg from "@/assets/kirkhall/kirkhall-hero-external-wall-coating-16x9.jpeg";
 
 import { services, getServiceBySlug, getRelatedServices } from "../data/services";
 
@@ -634,7 +634,7 @@ const ServiceDetailPage = () => {
                           <MapPin className="w-7 h-7 text-white" />
                         </div>
                         <div>
-                          <h4 className="font-display text-2xl text-white mb-1 tracking-wide uppercase">Local Decorators</h4>
+                          <h4 className="font-display text-2xl text-white mb-1 tracking-wide uppercase">Local Specialists</h4>
                           <p className="text-gold-light/80 font-heading font-bold uppercase tracking-widest text-xs">Strategically Based for Quick Service</p>
                         </div>
                       </div>

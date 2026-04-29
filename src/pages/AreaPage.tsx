@@ -24,10 +24,10 @@ import { siteConfig, getPhoneLink } from "@/data/siteConfig";
 import { motion, AnimatePresence } from "framer-motion";
 
 // Area Hero Images
-import interiorPaintingImg from "@/assets/services-shots/interior-painting.webp";
-import exteriorPaintingImg from "@/assets/services-shots/exterior-painting-2.webp";
-import woodworkTrimImg from "@/assets/services-shots/woodwork---trim.webp";
-import commercialDecoratingImg from "@/assets/services-shots/commercial-decorating.webp";
+import interiorPaintingImg from "@/assets/kirkhall/kirkhall-hero-external-wall-coating-16x9.jpeg";
+import exteriorPaintingImg from "@/assets/kirkhall/kirkhall-service-external-wall-coatings-4x3.jpeg";
+import woodworkTrimImg from "@/assets/kirkhall/kirkhall-service-upvc-spraying-4x3.jpeg";
+import commercialDecoratingImg from "@/assets/kirkhall/kirkhall-trust-team-workmanship-4x3.jpeg";
 
 // Certification logos
 import googleLogo from "@/assets/icons/certifications/google-g-logo.svg";
@@ -667,7 +667,7 @@ const AreaPage = () => {
                         ))}
                       </div>
                       <p className="text-xl italic text-foreground leading-relaxed mb-8">
-                        "Absolutely delighted with our newly decorated rooms.
+                        "Absolutely delighted with the external wall coating.
                         The team were professional, the finish was flawless, and
                         the difference to our home in {area.name} is
                         remarkable."

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Phone, Menu, X, ChevronDown, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
-import logoImg from "@/assets/branding/kirkhall-logo-dark.svg";
+import logoImg from "@/assets/branding/kirkhall-logo.png";
 import { services } from "@/data/services";
 import { areas } from "@/data/areas";
 import { siteConfig, getPhoneLink, getEmailLink } from "@/data/siteConfig";

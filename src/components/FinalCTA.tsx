@@ -91,7 +91,7 @@ const FinalCTA = ({ areaName }: FinalCTAProps) => {
             </h2>
 
             <p className="text-lg text-on-dark-muted mb-8 max-w-lg">
-              Get expert advice on painting and decorating for your {displayArea} home.
+              Get expert advice on wall coatings and refurbishment for your {displayArea} home.
               We'll provide a free, no-obligation quote.
             </p>
 

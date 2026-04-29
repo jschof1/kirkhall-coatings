@@ -1,6 +1,9 @@
 import externalWallCoatingsImg from "@/assets/kirkhall/kirkhall-service-external-wall-coatings-4x3.jpeg";
 import roofRefurbishmentImg from "@/assets/kirkhall/kirkhall-service-roof-refurbishment-4x3.jpeg";
 import upvcSprayingImg from "@/assets/kirkhall/kirkhall-service-upvc-spraying-4x3.jpeg";
+import wallPrepRepairsImg from "@/assets/kirkhall/kirkhall-service-wall-prep-repairs-4x3.jpeg";
+import upvcDoorSprayImg from "@/assets/kirkhall/kirkhall-service-upvc-door-spray-4x3.jpeg";
+import fasciaConservatoryImg from "@/assets/kirkhall/kirkhall-service-fascia-conservatory-4x3.jpeg";
 
 export interface PaintingService {
   title: string;
@@ -37,20 +40,20 @@ export const paintingServices: PaintingService[] = [
     shortDesc: "Loose damage repairs, biocide treatment, and prep sealing before final coatings.",
     accent: "214 50% 45%",
     cta: "Stabilise your walls first",
-    image: externalWallCoatingsImg,
+    image: wallPrepRepairsImg,
   },
   {
     title: "uPVC Door Spraying",
     shortDesc: "Dedicated front and back door spraying for a clean, modern finish.",
     accent: "210 68% 52%",
     cta: "Refresh your doors",
-    image: upvcSprayingImg,
+    image: upvcDoorSprayImg,
   },
   {
     title: "Fascia, Soffit & Conservatory Spraying",
     shortDesc: "Refurbishment spraying for external trim and conservatory uPVC frames.",
     accent: "205 62% 46%",
     cta: "Upgrade external trim",
-    image: upvcSprayingImg,
+    image: fasciaConservatoryImg,
   },
 ];

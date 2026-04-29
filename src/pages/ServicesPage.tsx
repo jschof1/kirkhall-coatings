@@ -31,8 +31,8 @@ import {
 } from "lucide-react";
 
 // Image Imports
-import heroBg from "@/assets/services-shots/interior-painting.webp";
-import coverageHeroBg from "@/assets/services-shots/commercial-decorating.webp";
+import heroBg from "@/assets/kirkhall/kirkhall-hero-external-wall-coating-16x9.jpeg";
+import coverageHeroBg from "@/assets/kirkhall/kirkhall-trust-team-workmanship-4x3.jpeg";
 import logo from "@/assets/branding/kirkhall-logo-mark.svg";
 
 // Certification / trust imports
@@ -85,7 +85,7 @@ const ServicesPage = () => {
           <div className="absolute inset-0 z-0">
             <img 
               src={heroBg}
-              alt="Premium Painting & Decorating Solutions"
+              alt="Premium External Wall Coating Solutions"
               className="absolute inset-0 w-full h-full object-cover opacity-40"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-charcoal/95 via-charcoal/85 to-charcoal/95" />

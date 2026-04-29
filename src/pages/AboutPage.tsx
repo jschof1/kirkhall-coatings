@@ -25,8 +25,8 @@ import { siteConfig, getPhoneLink } from "@/data/siteConfig";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import storyImage from "@/assets/services-shots/interior-painting.webp";
-import expertiseImage from "@/assets/services-shots/commercial-decorating.webp";
+import storyImage from "@/assets/kirkhall/kirkhall-trust-team-workmanship-4x3.jpeg";
+import expertiseImage from "@/assets/kirkhall/kirkhall-service-external-wall-coatings-4x3.jpeg";
 
 const AboutPage = () => {
   const stats = [

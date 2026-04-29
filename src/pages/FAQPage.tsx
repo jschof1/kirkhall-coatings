@@ -27,7 +27,7 @@ import SEO from "@/components/SEO";
 import { siteConfig } from "@/data/siteConfig";
 
 // Image Imports
-import heroBg from "@/assets/photos/hero-bg.webp";
+import heroBg from "@/assets/kirkhall/kirkhall-hero-external-wall-coating-16x9.jpeg";
 
 const faqCategories = [
   {
@@ -93,7 +93,7 @@ const faqCategories = [
   },
   {
     id: "exterior",
-    title: "Exterior Painting",
+    title: "External Coatings",
     icon: Truck,
     questions: [
       {

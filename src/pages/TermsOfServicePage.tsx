@@ -8,7 +8,7 @@ const TermsOfServicePage = () => {
     <>
       <SEO 
         title={`Terms of Service ${siteConfig.seo.titleSuffix}`}
-        description={`Terms of Service for ${siteConfig.business.name}. Read our terms and conditions for painting and decorating services.`}
+        description={`Terms of Service for ${siteConfig.business.name}. Read our terms and conditions for wall coating and property refurbishment services.`}
         noindex={true}
       />
 
@@ -29,7 +29,7 @@ const TermsOfServicePage = () => {
               <section className="space-y-4">
                 <h2 className="text-xl font-bold text-foreground">1. About These Terms</h2>
                 <p>
-                  These Terms of Service explain how {siteConfig.business.name} ("we", "our", or "us") works with customers who use our website, request a quotation, or book painting and decorating services. These terms apply to booked work and accepted quotations unless we agree something different with you in writing.
+                  These Terms of Service explain how {siteConfig.business.name} ("we", "our", or "us") works with customers who use our website, request a quotation, or book wall coating and property refurbishment services. These terms apply to booked work and accepted quotations unless we agree something different with you in writing.
                 </p>
                 <p>
                   Requesting a quotation or contacting us does not by itself create a binding contract. A contract is formed when you accept our quotation or otherwise confirm that you want us to carry out the work.
@@ -91,7 +91,7 @@ const TermsOfServicePage = () => {
               <section className="space-y-4">
                 <h2 className="text-xl font-bold text-foreground">7. Workmanship and Materials</h2>
                 <p>
-                  We aim to carry out all work with reasonable care and skill. Unless otherwise agreed, we choose suitable preparation methods and decorating materials based on the condition of the surfaces and the agreed finish.
+                  We aim to carry out all work with reasonable care and skill. Unless otherwise agreed, we choose suitable preparation methods and coating materials based on the condition of the surfaces and the agreed finish.
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Minor snagging should be reported promptly so we can inspect it</li>

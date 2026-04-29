@@ -30,7 +30,7 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    slug: "townhouse-interior-sevenoaks",
+    slug: "external-wall-coating-motherwell",
     title: "External Wall Coating Refurbishment",
     location: "Motherwell",
     area: "Motherwell",
@@ -48,10 +48,10 @@ export const projects: Project[] = [
       warranty: "Guaranteed Workmanship",
     },
     features: ["Crack and substrate repairs", "Biocide clean and prep", "Minimum two-coat finish", "Neat site management"],
-    relatedProjects: ["period-property-wallpapering", "exterior-transformation-maidstone"],
+    relatedProjects: ["roof-refurbishment-airdrie", "upvc-spraying-glasgow"],
   },
   {
-    slug: "period-property-wallpapering",
+    slug: "roof-refurbishment-airdrie",
     title: "Roof Refurbishment and Coating",
     location: "Airdrie",
     area: "Airdrie",
@@ -69,10 +69,10 @@ export const projects: Project[] = [
       warranty: "Guaranteed Workmanship",
     },
     features: ["Roof condition assessment", "Safe prep and access", "Targeted roof repairs", "Protective finish coating"],
-    relatedProjects: ["townhouse-interior-sevenoaks", "exterior-transformation-maidstone"],
+    relatedProjects: ["external-wall-coating-motherwell", "upvc-spraying-glasgow"],
   },
   {
-    slug: "exterior-transformation-maidstone",
+    slug: "upvc-spraying-glasgow",
     title: "uPVC Window and Door Spraying",
     location: "Glasgow",
     area: "Glasgow",
@@ -90,10 +90,10 @@ export const projects: Project[] = [
       warranty: "Guaranteed Workmanship",
     },
     features: ["Professional masking", "Smooth spray-applied finish", "Fast turnaround", "Cost-effective refresh"],
-    relatedProjects: ["townhouse-interior-sevenoaks", "commercial-office-refresh"],
+    relatedProjects: ["external-wall-coating-motherwell", "combined-refurbishment-coatbridge"],
   },
   {
-    slug: "woodwork-restoration-bromley",
+    slug: "combined-refurbishment-coatbridge",
     title: "External Walls and Roof Upgrade",
     location: "Coatbridge",
     area: "Coatbridge",
@@ -111,7 +111,7 @@ export const projects: Project[] = [
       warranty: "Guaranteed Workmanship",
     },
     features: ["Single coordinated project plan", "Wall and roof prep sequencing", "Durable weatherproof finishes", "Neat handover"],
-    relatedProjects: ["townhouse-interior-sevenoaks", "period-property-wallpapering"],
+    relatedProjects: ["external-wall-coating-motherwell", "roof-refurbishment-airdrie"],
   },
   {
     slug: "commercial-office-refresh",
@@ -132,7 +132,7 @@ export const projects: Project[] = [
       warranty: "Guaranteed Workmanship",
     },
     features: ["Front elevation refresh", "Professional masking and prep", "Even factory-style spray finish", "Strong curb appeal uplift"],
-    relatedProjects: ["exterior-transformation-maidstone", "woodwork-restoration-bromley"],
+    relatedProjects: ["upvc-spraying-glasgow", "combined-refurbishment-coatbridge"],
   },
 ];
 

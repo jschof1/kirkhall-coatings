@@ -6,7 +6,7 @@ interface PageTemplateProps {
   params?: Record<string, string>;
 }
 
-const BASE_URL = "https://londondec.co.uk";
+const BASE_URL = "https://kirkhall-wall-coatings.co.uk";
 
 const PageTemplate = ({ meta }: PageTemplateProps) => {
   const { title, description, ogImage, noindex } = meta;

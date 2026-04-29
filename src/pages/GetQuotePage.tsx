@@ -269,7 +269,7 @@ const GetQuotePage = () => {
                     <textarea
                       value={formData.description}
                       onChange={(e) => updateField("description", e.target.value)}
-                      placeholder="E.g., Looking to repaint 3 bedrooms, need wallpapering in the dining room..."
+                      placeholder="E.g., External wall coating on a semi-detached, uPVC windows need respraying..."
                       className="w-full h-24 p-3 rounded-lg border border-input bg-background text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-gold resize-none"
                     />
                   </div>

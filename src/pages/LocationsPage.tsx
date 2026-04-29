@@ -31,7 +31,7 @@ import {
 } from "lucide-react";
 
 // Image Imports
-import heroBg from "@/assets/services-shots/commercial-decorating.webp";
+import heroBg from "@/assets/kirkhall/kirkhall-hero-external-wall-coating-16x9.jpeg";
 
 const LocationsPage = () => {
   // Group areas by region
@@ -297,8 +297,8 @@ const LocationsPage = () => {
                         <Home className="w-6 h-6 text-gold" strokeWidth={2.5} />
                       </div>
                       <div>
-                        <h4 className="font-heading font-bold text-charcoal uppercase tracking-widest text-sm mb-1">Expert Decorating</h4>
-                        <p className="text-charcoal/60 text-sm font-body">Master decorators who know the local architectural styles.</p>
+                        <h4 className="font-heading font-bold text-charcoal uppercase tracking-widest text-sm mb-1">Expert Coatings</h4>
+                        <p className="text-charcoal/60 text-sm font-body">Coating specialists who understand local property types and weather exposure.</p>
                       </div>
                     </div>
                   </div>

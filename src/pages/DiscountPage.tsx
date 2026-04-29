@@ -241,7 +241,7 @@ const DiscountPage = () => {
                   <Label htmlFor="summary" className="text-foreground font-semibold text-sm">What do you need? *</Label>
                   <Textarea
                     id="summary"
-                    placeholder="e.g., living room repaint, exterior painting..."
+                    placeholder="e.g., external wall coating, roof refurbishment..."
                     value={formData.summary}
                     onChange={(e) => setFormData({ ...formData, summary: e.target.value })}
                     rows={2}

@@ -20,9 +20,9 @@ const AddCustomerPage = () => {
       />
       <div className="w-full max-w-2xl">
         <iframe
-          src="https://api.leadconnectorhq.com/widget/form/tcG1O8izc9zbUeZcEdso"
-          className="w-full h-[740px] iframe-reset rounded"
-          id="inline-tcG1O8izc9zbUeZcEdso"
+          src="https://api.leadconnectorhq.com/widget/form/9eevCqOLFZdgTP6mMXLN"
+          className="iframe-reset block h-[835px] w-full rounded-lg border-0"
+          id="inline-9eevCqOLFZdgTP6mMXLN"
           data-layout="{'id':'INLINE'}"
           data-trigger-type="alwaysShow"
           data-trigger-value=""
@@ -31,9 +31,9 @@ const AddCustomerPage = () => {
           data-deactivation-type="neverDeactivate"
           data-deactivation-value=""
           data-form-name="Client Review + 1 Year Followup Sequence Form"
-          data-height="740"
-          data-layout-iframe-id="inline-tcG1O8izc9zbUeZcEdso"
-          data-form-id="tcG1O8izc9zbUeZcEdso"
+          data-height="835"
+          data-layout-iframe-id="inline-9eevCqOLFZdgTP6mMXLN"
+          data-form-id="9eevCqOLFZdgTP6mMXLN"
           title="Client Review + 1 Year Followup Sequence Form"
         />
       </div>

@@ -1,6 +1,9 @@
 import externalWallCoatingsImg from "@/assets/kirkhall/kirkhall-service-external-wall-coatings-4x3.jpeg";
 import roofRefurbishmentImg from "@/assets/kirkhall/kirkhall-service-roof-refurbishment-4x3.jpeg";
 import upvcSprayingImg from "@/assets/kirkhall/kirkhall-service-upvc-spraying-4x3.jpeg";
+import wallPrepRepairsImg from "@/assets/kirkhall/kirkhall-service-wall-prep-repairs-4x3.jpeg";
+import upvcDoorSprayImg from "@/assets/kirkhall/kirkhall-service-upvc-door-spray-4x3.jpeg";
+import fasciaConservatoryImg from "@/assets/kirkhall/kirkhall-service-fascia-conservatory-4x3.jpeg";
 
 import {
   Brush,
@@ -232,7 +235,7 @@ export const services: Service[] = [
     metaDescription:
       "Loose render repairs, crack treatment, biocide wash and stabilising sealer prep for external walls across Motherwell, North Lanarkshire and Glasgow.",
     icon: ShieldCheck,
-    image: externalWallCoatingsImg,
+    image: wallPrepRepairsImg,
     heroDescription:
       "Prep-led wall restoration before coating, including repairs, treatment and sealing for reliable long-term results.",
     shortDesc:
@@ -290,7 +293,7 @@ export const services: Service[] = [
     metaDescription:
       "Specialist uPVC front and back door spraying using HVLP application for durable, modern colour changes across North Lanarkshire and Glasgow.",
     icon: SprayCan,
-    image: upvcSprayingImg,
+    image: upvcDoorSprayImg,
     heroDescription:
       "Give tired uPVC doors a clean factory-style colour upgrade without full replacement.",
     shortDesc:
@@ -348,7 +351,7 @@ export const services: Service[] = [
     metaDescription:
       "Refurbishment spraying for uPVC fascias, soffits and conservatory frames across Motherwell, North Lanarkshire and Glasgow.",
     icon: SprayCan,
-    image: upvcSprayingImg,
+    image: fasciaConservatoryImg,
     heroDescription:
       "Refresh external uPVC trims and conservatory frames with durable spray-applied colour systems.",
     shortDesc:
