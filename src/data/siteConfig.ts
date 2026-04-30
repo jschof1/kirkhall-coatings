@@ -24,7 +24,7 @@ export const siteConfig = {
   business: {
     name: "Kirkhall Wall Coatings",
     shortName: "Kirkhall",
-    tagline: "External Wall, Roof & uPVC Coatings Specialists",
+    tagline: "External Wall & uPVC Window Coatings Specialists",
     broadServiceName: "Property Coatings & Refurbishment",
     yearsExperience: 20,
     foundedYear: 2010,
@@ -106,9 +106,9 @@ export const siteConfig = {
   seo: {
     siteUrl: "https://kirkhall-wall-coatings.co.uk",
     titleSuffix: "| Kirkhall Wall Coatings",
-    defaultTitle: "Kirkhall Wall Coatings | External Wall, Roof & uPVC Specialists",
+    defaultTitle: "Kirkhall Wall Coatings | External Wall & uPVC Window Specialists",
     defaultDescription:
-      "External wall coatings, roof refurbishment, and uPVC spraying across Motherwell, North Lanarkshire, and Glasgow. Timeserved workforce with guaranteed workmanship.",
+      "External wall coatings and uPVC window and door spraying across Motherwell, North Lanarkshire, and Glasgow. Timeserved workforce with guaranteed workmanship.",
     ogImage: "/og-image.jpg",
     language: "en-GB",
     locale: "en_GB",

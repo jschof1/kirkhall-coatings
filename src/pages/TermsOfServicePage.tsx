@@ -43,8 +43,7 @@ const TermsOfServicePage = () => {
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>External wall coating systems</li>
-                  <li>Roof refurbishment and roof coating works</li>
-                  <li>uPVC spraying for windows, doors, fascias, and trims</li>
+                  <li>uPVC window, door, fascia, soffit, and trim spraying</li>
                   <li>Related preparation, repairs, and protection works required for a durable finish</li>
                 </ul>
               </section>

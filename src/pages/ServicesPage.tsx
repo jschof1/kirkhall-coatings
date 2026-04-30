@@ -69,7 +69,7 @@ const ServicesPage = () => {
     <div className="min-h-screen bg-background">
       <SEO 
         title="Services | Kirkhall Wall Coatings"
-        description="External wall coatings, roof refurbishment, and uPVC spraying across Motherwell, North Lanarkshire, and Glasgow."
+        description="External wall coatings and uPVC window and door spraying across Motherwell, North Lanarkshire, and Glasgow."
         canonical="https://kirkhall-wall-coatings.co.uk/services"
       />
 
@@ -120,7 +120,7 @@ const ServicesPage = () => {
               >
                 External Wall <br />
                 <span className="text-gold-gradient relative inline-block">
-                  Roof & uPVC Specialists
+                  Wall & uPVC Window Specialists
                   <motion.span 
                     initial={{ width: 0 }}
                     animate={{ width: "100%" }}
@@ -136,7 +136,7 @@ const ServicesPage = () => {
                 transition={{ delay: 0.3 }}
                 className="text-base md:text-lg text-white/75 mb-8 max-w-xl mx-auto leading-relaxed font-body"
               >
-                Prep-first coating systems for external walls, roof surfaces, and uPVC joinery across North Lanarkshire and Glasgow.
+                Prep-first coating systems for external walls and uPVC windows, doors, and trims across North Lanarkshire and Glasgow.
               </motion.p>
               
               <motion.div 
@@ -203,7 +203,7 @@ const ServicesPage = () => {
                 </h2>
                 <div className="w-12 h-0.5 bg-gold mx-auto mb-5" />
                 <p className="text-charcoal/65 text-base md:text-lg font-body leading-relaxed">
-                  Explore our core services: external wall coatings, roof refurbishment, and uPVC spraying.
+                  Explore our core services: external wall coatings and uPVC window and door spraying.
                 </p>
               </div>
             </ScrollReveal>

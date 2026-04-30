@@ -29,7 +29,7 @@ const PrivacyPolicyPage = () => {
               <section className="space-y-4">
                 <h2 className="text-xl font-bold text-foreground">1. Who We Are</h2>
                 <p>
-                  {siteConfig.business.name} ("we", "our", or "us") provides external wall coatings, roof refurbishment, and uPVC spraying across North Lanarkshire and Glasgow. This Privacy Policy explains how we collect, use, store, and protect personal information when you visit our website, request a quote, contact us, or use our services.
+                  {siteConfig.business.name} ("we", "our", or "us") provides external wall coatings and uPVC window and door spraying across North Lanarkshire and Glasgow. This Privacy Policy explains how we collect, use, store, and protect personal information when you visit our website, request a quote, contact us, or use our services.
                 </p>
                 <p>
                   For the purposes of UK data protection law, we are the controller of the personal information you provide to us through this website and during the course of our work.

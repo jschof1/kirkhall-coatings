@@ -30,9 +30,9 @@ const staticSeoRoutes: SeoRoute[] = [
   {
     path: "/",
     outputPath: toOutputPath("/"),
-    title: "Kirkhall Wall Coatings | External Wall, Roof & uPVC Specialists",
+    title: "Kirkhall Wall Coatings | External Wall & uPVC Window Specialists",
     description:
-      "External wall coatings, roof refurbishment, and uPVC spraying across Motherwell, North Lanarkshire, and Glasgow. Free surveys and detailed quotes.",
+      "External wall coatings and uPVC window and door spraying across Motherwell, North Lanarkshire, and Glasgow. Free surveys and detailed quotes.",
     changefreq: "weekly",
     priority: 1,
     source: "static",
@@ -42,7 +42,7 @@ const staticSeoRoutes: SeoRoute[] = [
     outputPath: toOutputPath("/about"),
     title: "About Kirkhall Wall Coatings | External Coatings Specialists",
     description:
-      "Learn about Kirkhall Wall Coatings and our prep-first approach to external wall coatings, roof refurbishment, and uPVC spraying across North Lanarkshire and Glasgow.",
+      "Learn about Kirkhall Wall Coatings and our prep-first approach to external wall coatings and uPVC window and door spraying across North Lanarkshire and Glasgow.",
     changefreq: "monthly",
     priority: 0.7,
     source: "static",
@@ -52,7 +52,7 @@ const staticSeoRoutes: SeoRoute[] = [
     outputPath: toOutputPath("/portfolio"),
     title: "Our Portfolio | Kirkhall Wall Coatings",
     description:
-      "Explore external wall coatings, roof refurbishment, and uPVC spraying projects across Motherwell, North Lanarkshire, and Glasgow.",
+      "Explore external wall coatings and uPVC window and door spraying projects across Motherwell, North Lanarkshire, and Glasgow.",
     changefreq: "weekly",
     priority: 0.8,
     source: "static",
@@ -62,7 +62,7 @@ const staticSeoRoutes: SeoRoute[] = [
     outputPath: toOutputPath("/services"),
     title: "Services | Kirkhall Wall Coatings",
     description:
-      "External wall coatings, roof refurbishment, and uPVC spraying across Motherwell, North Lanarkshire, and Glasgow.",
+      "External wall coatings and uPVC window and door spraying across Motherwell, North Lanarkshire, and Glasgow.",
     changefreq: "weekly",
     priority: 0.9,
     source: "static",
@@ -72,7 +72,7 @@ const staticSeoRoutes: SeoRoute[] = [
     outputPath: toOutputPath("/faq"),
     title: "Frequently Asked Questions | Kirkhall Wall Coatings",
     description:
-      "Find answers to common questions about external wall coatings, roof refurbishment, and uPVC spraying across Motherwell, North Lanarkshire, and Glasgow.",
+      "Find answers to common questions about external wall coatings and uPVC window and door spraying across Motherwell, North Lanarkshire, and Glasgow.",
     changefreq: "monthly",
     priority: 0.7,
     source: "static",
@@ -82,7 +82,7 @@ const staticSeoRoutes: SeoRoute[] = [
     outputPath: toOutputPath("/locations"),
     title: `Service Areas | ${siteConfig.business.name}`,
     description:
-      "Kirkhall Wall Coatings provides external wall coatings, roof refurbishment, and uPVC spraying across Motherwell, North Lanarkshire, and Glasgow.",
+      "Kirkhall Wall Coatings provides external wall coatings and uPVC window and door spraying across Motherwell, North Lanarkshire, and Glasgow.",
     changefreq: "weekly",
     priority: 0.8,
     source: "static",
@@ -92,7 +92,7 @@ const staticSeoRoutes: SeoRoute[] = [
     outputPath: toOutputPath("/get-quote"),
     title: `Get a Free Quote ${siteConfig.seo.titleSuffix}`,
     description:
-      "Get a free, no-obligation quote for external wall coatings, roof refurbishment, and uPVC spraying. Fast response across Motherwell, North Lanarkshire, and Glasgow.",
+      "Get a free, no-obligation quote for external wall coatings and uPVC window and door spraying. Fast response across Motherwell, North Lanarkshire, and Glasgow.",
     changefreq: "weekly",
     priority: 0.8,
     source: "static",
@@ -102,7 +102,7 @@ const staticSeoRoutes: SeoRoute[] = [
     outputPath: toOutputPath("/reviews"),
     title: `Customer Reviews & Testimonials | ${siteConfig.business.name}`,
     description:
-      "Read real reviews from customers across Motherwell, North Lanarkshire, and Glasgow for external wall coatings, roof refurbishment, and uPVC spraying.",
+      "Read real reviews from customers across Motherwell, North Lanarkshire, and Glasgow for external wall coatings and uPVC window and door spraying.",
     changefreq: "weekly",
     priority: 0.7,
     source: "static",
@@ -111,7 +111,7 @@ const staticSeoRoutes: SeoRoute[] = [
     path: "/sitemap",
     outputPath: toOutputPath("/sitemap"),
     title: `Sitemap | ${siteConfig.business.name}`,
-    description: `Complete sitemap for ${siteConfig.business.name}. Find all our wall coating, roof refurbishment, and uPVC spraying services, service areas, and important pages.`,
+    description: `Complete sitemap for ${siteConfig.business.name}. Find all our wall coating and uPVC window spraying services, service areas, and important pages.`,
     changefreq: "monthly",
     priority: 0.3,
     source: "static",
@@ -198,7 +198,7 @@ const areaSeoRoutes: SeoRoute[] = areas.map((area) => ({
     `${area.name} Property Coatings | Kirkhall Wall Coatings`,
   description:
     area.metaDescription ||
-    `External wall coatings, roof refurbishment, and uPVC spraying in ${area.name}. Free local surveys for ${area.postcodes.join(", ")} properties.`,
+    `External wall coatings and uPVC window and door spraying in ${area.name}. Free local surveys for ${area.postcodes.join(", ")} properties.`,
   changefreq: "monthly",
   priority: 0.7,
   source: "area",

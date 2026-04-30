@@ -1,11 +1,9 @@
 import externalWallCoatingsImg from "@/assets/kirkhall/kirkhall-service-external-wall-coatings-4x3.jpeg";
-import roofRefurbishmentImg from "@/assets/kirkhall/kirkhall-service-roof-refurbishment-4x3.jpeg";
 import upvcSprayingImg from "@/assets/kirkhall/kirkhall-service-upvc-spraying-4x3.jpeg";
 
 import {
   Paintbrush,
   SprayCan,
-  Wrench,
   LucideIcon,
 } from "lucide-react";
 
@@ -37,7 +35,8 @@ export const products: Product[] = [
     title: "External Wall Coatings",
     shortTitle: "Wall Coatings",
     metaTitle: "External Wall Coatings Motherwell & Glasgow | Kirkhall Wall Coatings",
-    metaDescription: "Prep-first external wall coating systems across Motherwell, North Lanarkshire, and Glasgow. Repairs, sealing, and durable weather-ready finishes.",
+    metaDescription:
+      "Prep-first external wall coating systems across Motherwell, North Lanarkshire, and Glasgow. Repairs, sealing, and durable weather-ready finishes.",
     icon: Paintbrush,
     image: externalWallCoatingsImg,
     heroDescription: "Protect and refresh tired masonry with external wall coating systems built for Scottish weather.",
@@ -74,66 +73,23 @@ export const products: Product[] = [
         answer: "Service life varies by exposure and wall condition, but proper prep and application provide significantly longer protection than basic repaint-only approaches."
       }
     ],
-    relatedProducts: ["roof-refurbishment", "upvc-spraying"]
-  },
-  {
-    slug: "roof-refurbishment",
-    title: "Roof Refurbishment",
-    shortTitle: "Roof Refurbishment",
-    metaTitle: "Roof Refurbishment North Lanarkshire | Kirkhall Wall Coatings",
-    metaDescription: "Roof refurbishment across North Lanarkshire and Glasgow, including moss removal, repairs, and protective coating systems.",
-    icon: Wrench,
-    image: roofRefurbishmentImg,
-    heroDescription: "Restore and protect tired roof surfaces with safe preparation, repairs, and specialist coating systems.",
-    shortDesc: "Roof cleaning, remediation, and coating for stronger weather performance and cleaner presentation.",
-    fullDescription: [
-      "Roof refurbishment is focused on restoring performance before major replacement is considered. We remove moss and contamination, inspect condition, and complete targeted repairs as needed.",
-      "Where suitable, we apply compatible roof coating systems that improve water-shedding and visual consistency across the roof surface.",
-      "Projects are delivered with practical scheduling and clear recommendations so homeowners understand what is essential, what is optional, and why."
-    ],
-    features: [
-      "Condition-led roof surveys",
-      "Moss and debris removal",
-      "Tile and ridge attention where required",
-      "Prep and coating compatibility checks",
-      "Safer access planning",
-      "Coating options for tiled and concrete roofs",
-      "Clear project scope and aftercare notes",
-      "Low-disruption delivery"
-    ],
-    benefits: [
-      "Extended roof service life",
-      "Improved weather resistance",
-      "Cleaner and more consistent roof finish",
-      "Reduced risk from unresolved minor defects",
-      "Cost-effective alternative to early replacement"
-    ],
-    faqs: [
-      {
-        question: "Is refurbishment suitable for every roof?",
-        answer: "No. We assess structural condition first and only recommend refurbishment where the roof is a good candidate for repair and coating."
-      },
-      {
-        question: "How long does a roof refurbishment take?",
-        answer: "Most domestic projects take several days depending on roof size, access, and the level of remediation needed before coating."
-      }
-    ],
-    relatedProducts: ["external-wall-coatings", "upvc-spraying"]
+    relatedProducts: ["upvc-spraying"]
   },
   {
     slug: "upvc-spraying",
     title: "uPVC Window & Door Spraying",
     shortTitle: "uPVC Spraying",
-    metaTitle: "uPVC Spraying Motherwell & Glasgow | Kirkhall Wall Coatings",
-    metaDescription: "Durable uPVC spraying for windows, doors, fascias, soffits, and trims across Motherwell, North Lanarkshire, and Glasgow.",
+    metaTitle: "uPVC Window Spraying Motherwell & Glasgow | Kirkhall Wall Coatings",
+    metaDescription:
+      "uPVC window and door spraying across Motherwell, North Lanarkshire, and Glasgow. HVLP prep, fascias, soffits, and trims with a durable factory-style finish.",
     icon: SprayCan,
     image: upvcSprayingImg,
-    heroDescription: "Transform uPVC windows, doors, and trims with a clean spray-applied finish without full replacement.",
-    shortDesc: "A cost-effective way to modernise uPVC exteriors with a durable professional spray finish.",
+    heroDescription: "Refresh exterior uPVC windows and doors with a clean spray-applied finish without full replacement.",
+    shortDesc: "Window-led colour upgrades for uPVC frames, doors, fascias, and garage doors.",
     fullDescription: [
-      "Our uPVC spraying service gives existing frames, doors, and trims a modern colour refresh without the cost of full replacement.",
+      "Our uPVC spraying service focuses on exterior windows and doors first, then trims and fascias where you want everything to match.",
       "We complete specialist cleaning and keying prep to support adhesion, then use controlled masking and spray application for sharp edges and smooth coverage.",
-      "This approach is ideal for homeowners wanting a consistent external update across windows, doors, fascias, and garage doors."
+      "This approach is ideal for homeowners wanting a consistent external update without the cost of replacing serviceable uPVC."
     ],
     features: [
       "Adhesion-focused uPVC preparation",
@@ -162,7 +118,7 @@ export const products: Product[] = [
         answer: "With proper preparation and suitable products, uPVC spray finishes are designed for long-term external performance."
       }
     ],
-    relatedProducts: ["external-wall-coatings", "roof-refurbishment"]
+    relatedProducts: ["external-wall-coatings"]
   }
 ];
 

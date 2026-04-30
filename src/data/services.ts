@@ -1,12 +1,10 @@
 import externalWallCoatingsImg from "@/assets/kirkhall/kirkhall-service-external-wall-coatings-4x3.jpeg";
-import roofRefurbishmentImg from "@/assets/kirkhall/kirkhall-service-roof-refurbishment-4x3.jpeg";
 import upvcSprayingImg from "@/assets/kirkhall/kirkhall-service-upvc-spraying-4x3.jpeg";
 import wallPrepRepairsImg from "@/assets/kirkhall/kirkhall-service-wall-prep-repairs-4x3.jpeg";
 import upvcDoorSprayImg from "@/assets/kirkhall/kirkhall-service-upvc-door-spray-4x3.jpeg";
 import fasciaConservatoryImg from "@/assets/kirkhall/kirkhall-service-fascia-conservatory-4x3.jpeg";
 
 import {
-  Brush,
   CheckCircle2,
   ClipboardCheck,
   Droplets,
@@ -105,7 +103,7 @@ export const services: Service[] = [
       },
     ],
     areas: ["Motherwell", "Airdrie", "Coatbridge", "Wishaw", "Bellshill", "Glasgow", "Cumbernauld"],
-    relatedServices: ["roof-refurbishment", "upvc-spraying"],
+    relatedServices: ["upvc-spraying", "wall-repairs-sealing-prep"],
     process: [
       { title: "Survey & Scope", description: "On-site inspection, moisture and substrate checks, then a written plan.", icon: Ruler },
       { title: "Prep & Repair", description: "Clean down, biocide treatment and defect repairs before priming.", icon: ClipboardCheck },
@@ -113,75 +111,17 @@ export const services: Service[] = [
     ],
   },
   {
-    slug: "roof-refurbishment",
-    title: "Roof Refurbishment",
-    metaTitle: "Roof Refurbishment North Lanarkshire | Kirkhall Wall Coatings",
-    metaDescription:
-      "Roof refurbishment for tiled and concrete roofs across North Lanarkshire and Glasgow. Safe prep, moss removal, repairs and protective roof coatings.",
-    icon: Wrench,
-    image: roofRefurbishmentImg,
-    heroDescription:
-      "Restore tired roofs with safe cleaning, targeted repairs and long-lasting coating systems.",
-    shortDesc:
-      "Moss removal, repairs and specialist roof coatings to extend roof life and improve appearance.",
-    fullDescription: [
-      "Our roof refurbishment service is focused on extending roof lifespan while improving appearance. We clear biological growth, clean surfaces safely, and identify defects before coatings are considered.",
-      "Loose ridge, damaged tiles and localised issues are addressed as part of the refurbishment process. We then apply compatible primers and roof coatings suited to the roof type and condition.",
-      "The result is a cleaner, more uniform roof surface with added weather resistance and a clear maintenance pathway for the future."
-    ],
-    features: [
-      "Roof condition survey and photo-led reporting",
-      "Moss, algae and debris removal",
-      "Minor roof repairs and ridge attention",
-      "Compatible roof primers and coating systems",
-      "Safer access planning and edge protection",
-      "Colour restoration options for faded roofs",
-      "Water-shedding performance improvement",
-      "Clear aftercare guidance for homeowners",
-    ],
-    pricing: [
-      { service: "Roof Cleaning & Treatment", price: "From £1,250", note: "Typical 2-3 bed property" },
-      { service: "Roof Coating System", price: "From £2,450", note: "Prep and coating included" },
-      { service: "Repair & Refurb Package", price: "Survey Quote", note: "Based on roof condition" },
-      { service: "Detached Roof Refurbishment", price: "Survey Quote", note: "Access dependent" },
-    ],
-    faqs: [
-      {
-        question: "Do I need a full roof replacement or can it be refurbished?",
-        answer:
-          "Many roofs benefit from refurbishment when the main structure is sound. We assess condition first and only recommend replacement when refurbishment would be poor value."
-      },
-      {
-        question: "Is roof spraying just cosmetic?",
-        answer:
-          "A proper roof coating system is not just cosmetic. With the correct prep and products it helps protect tiles, reduce water uptake and improve long-term roof resilience."
-      },
-      {
-        question: "How disruptive is roof refurbishment?",
-        answer:
-          "Most residential jobs are managed with minimal disruption. We plan access and sequence works to keep noise, overspray risk and site mess under control."
-      },
-    ],
-    areas: ["Motherwell", "Wishaw", "Hamilton", "Airdrie", "Coatbridge", "Glasgow", "East Kilbride"],
-    relatedServices: ["external-wall-coatings", "upvc-spraying"],
-    process: [
-      { title: "Roof Survey", description: "Assess tile condition, ridge stability and contamination levels.", icon: Ruler },
-      { title: "Clean & Repair", description: "Remove growth, complete repairs and prepare the roof surface.", icon: Brush },
-      { title: "Prime & Coat", description: "Apply primer and roof coating in controlled coats for coverage.", icon: ShieldCheck },
-    ],
-  },
-  {
     slug: "upvc-spraying",
     title: "uPVC Window & Door Spraying",
-    metaTitle: "uPVC Spraying Motherwell & Glasgow | Kirkhall Wall Coatings",
+    metaTitle: "uPVC Window Spraying Motherwell & Glasgow | Kirkhall Wall Coatings",
     metaDescription:
-      "uPVC spraying specialists for windows, doors, fascias and garage doors in Motherwell and Glasgow. Factory-style spray finish without full replacement cost.",
+      "uPVC window and door spraying in Motherwell, North Lanarkshire and Glasgow. HVLP prep, professional masking, fascias and garage doors. Factory-style finish without full replacement.",
     icon: SprayCan,
     image: upvcSprayingImg,
     heroDescription:
-      "Refresh tired uPVC windows, doors and trims with a durable spray-applied finish in modern colours.",
+      "Prioritise exterior uPVC windows and doors with HVLP spraying, crisp masking, and durable colour upgrades for frames, trims and garage doors.",
     shortDesc:
-      "Cost-effective colour transformation for uPVC frames, doors, fascias and garage doors.",
+      "Window-led uPVC respraying for frames and doors, plus fascias, soffits and garage doors where you want a coordinated refresh.",
     fullDescription: [
       "uPVC spraying is a fast, cost-effective way to modernise property exteriors without replacing serviceable frames and trims. We deep clean and key surfaces to ensure dependable adhesion.",
       "Using professional masking and spray equipment, we deliver smooth, even coverage with minimal disruption. Popular upgrades include anthracite grey, black and contemporary neutral palettes.",
@@ -221,7 +161,7 @@ export const services: Service[] = [
       },
     ],
     areas: ["Motherwell", "Bellshill", "Coatbridge", "Airdrie", "Cumbernauld", "Glasgow", "Bothwell"],
-    relatedServices: ["external-wall-coatings", "roof-refurbishment"],
+    relatedServices: ["external-wall-coatings", "upvc-door-spraying"],
     process: [
       { title: "Surface Prep", description: "Deep clean, degrease and key uPVC surfaces for adhesion.", icon: Droplets },
       { title: "Mask & Protect", description: "Protect glass, brickwork and trims before spraying begins.", icon: ClipboardCheck },
@@ -279,7 +219,7 @@ export const services: Service[] = [
       },
     ],
     areas: ["Motherwell", "Airdrie", "Coatbridge", "Wishaw", "Bellshill", "Glasgow", "Cumbernauld"],
-    relatedServices: ["external-wall-coatings", "roof-refurbishment"],
+    relatedServices: ["external-wall-coatings", "upvc-spraying"],
     process: [
       { title: "Defect Survey", description: "Inspect loose areas, cracks and contamination before works start.", icon: Ruler },
       { title: "Repair & Treat", description: "Repair damaged sections and complete biocide treatment where needed.", icon: Wrench },

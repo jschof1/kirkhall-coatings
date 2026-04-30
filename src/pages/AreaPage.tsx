@@ -140,13 +140,13 @@ const AreaPage = () => {
     },
     {
       icon: Paintbrush,
-      title: "Roof Refurbishment",
-      desc: "Safe cleaning, targeted repairs, and protective roof coatings",
+      title: "Wall Repairs & Prep",
+      desc: "Defect repairs, biocide treatment, and sealing before top coats",
     },
     {
       icon: Sparkles,
-      title: "uPVC Spraying",
-      desc: "Durable spray finishes for windows, doors, fascias, and trims",
+      title: "uPVC Window Spraying",
+      desc: "HVLP respraying for windows, doors, fascias, and trims",
     },
     {
       icon: Layers,
@@ -198,7 +198,7 @@ const AreaPage = () => {
       name: `Kirkhall Wall Coatings - ${area.name}`,
       description:
         area.description ||
-        `External wall coatings, roof refurbishment, and uPVC spraying in ${area.name}.`,
+        `External wall coatings and uPVC window and door spraying in ${area.name}.`,
       url: `https://kirkhall-wall-coatings.co.uk/${area.slug}`,
       telephone: siteConfig.contact.phone,
       email: siteConfig.contact.email,
@@ -280,8 +280,8 @@ const AreaPage = () => {
         </SelectTrigger>
         <SelectContent>
           <SelectItem value="external-wall-coatings">External Wall Coatings</SelectItem>
-          <SelectItem value="roof-refurbishment">Roof Refurbishment</SelectItem>
-          <SelectItem value="upvc-spraying">uPVC Spraying</SelectItem>
+          <SelectItem value="wall-repairs-sealing-prep">Wall Repairs & Prep</SelectItem>
+          <SelectItem value="upvc-spraying">uPVC Window & Door Spraying</SelectItem>
           <SelectItem value="surface-prep">Surface Preparation</SelectItem>
           <SelectItem value="other">Not Sure Yet</SelectItem>
         </SelectContent>
@@ -329,7 +329,7 @@ const AreaPage = () => {
         }
         description={
           area.metaDescription ||
-          `External wall coatings, roof refurbishment, and uPVC spraying in ${area.name}. Free local surveys for ${area.postcodes.join(", ")} properties.`
+          `External wall coatings and uPVC window and door spraying in ${area.name}. Free local surveys for ${area.postcodes.join(", ")} properties.`
         }
         canonical={`https://kirkhall-wall-coatings.co.uk/${area.slug}`}
         schema={schemas}
@@ -399,7 +399,7 @@ const AreaPage = () => {
 
                   {/* Headline */}
                   <h1 className="font-display inline-block text-[2rem] sm:text-4xl md:text-7xl lg:text-5xl text-foreground leading-[1.05] mb-2 tracking-tight">
-                    External Wall, Roof & uPVC Coatings in{" "}<br></br>
+                    External Wall & uPVC Window Coatings in{" "}<br></br>
                     <span
                       className="text-gold text-[2rem] sm:text-4xl md:text-7xl lg:text-7xl text-foreground-inverse font-bold py-2 outline-text-solid"
                     >

@@ -24,9 +24,9 @@ const FAQ = ({ areaName }: FAQProps) => {
         "We repair loose damage, apply biocide/sealer as required, then apply a minimum of two masonry coating coats for durable weather protection.",
     },
     {
-      question: "Do you carry out roof refurbishment as well?",
+      question: "Can you prioritise uPVC windows on a spraying project?",
       answer:
-        "Yes. We clean, prepare and refinish roof surfaces using coating systems designed to improve protection and appearance.",
+        "Yes. Many jobs lead with front elevation windows and doors, then we align fascias, soffits, and garage doors for a consistent finish.",
     },
     {
       question: "Can you spray uPVC windows and doors?",
@@ -70,7 +70,7 @@ const FAQ = ({ areaName }: FAQProps) => {
               <span className="text-gold-gradient">We've Got Answers.</span>
             </h2>
             <p className="text-muted-foreground text-base md:text-lg mb-5 md:mb-8 leading-relaxed">
-              Everything you need to know about our wall coatings, roof refurbishment and uPVC spraying services.
+              Everything you need to know about our wall coatings and uPVC window and door spraying services.
               Can't find what you're looking for? Get in touch.
             </p>
             <Button asChild variant="paint" size="lg">

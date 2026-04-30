@@ -125,9 +125,9 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO 
-        title="Kirkhall Wall Coatings | External Wall, Roof & uPVC Specialists"
-        description="External wall coatings, roof refurbishment, and uPVC spraying across Motherwell, North Lanarkshire, and Glasgow. Free surveys and detailed quotes."
-        keywords={["external wall coatings", "roof refurbishment", "upvc spraying", "motherwell wall coatings", "north lanarkshire roof coatings", "glasgow upvc spraying"]}
+        title="Kirkhall Wall Coatings | External Wall & uPVC Window Specialists"
+        description="External wall coatings and uPVC window and door spraying across Motherwell, North Lanarkshire, and Glasgow. Free surveys and detailed quotes."
+        keywords={["external wall coatings", "upvc window spraying", "upvc spraying", "motherwell wall coatings", "north lanarkshire upvc spraying", "glasgow upvc window spraying"]}
         canonical="https://kirkhall-wall-coatings.co.uk/"
       />
 

@@ -37,7 +37,7 @@ const Footer = () => {
             className="h-14 md:h-20 w-auto mx-auto mb-6 md:mb-8 opacity-95" 
           />
           <p className="text-primary-foreground/60 text-lg mb-6 max-w-md mx-auto">
-            External wall coatings, roof refurbishment and uPVC spraying across {siteConfig.serviceArea.primary}
+            External wall coatings and uPVC window and door spraying across {siteConfig.serviceArea.primary}
           </p>
           <a
             href={getPhoneLink()}

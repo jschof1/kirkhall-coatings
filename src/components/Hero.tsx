@@ -136,13 +136,13 @@ const Hero = ({ areaName }: HeroProps) => {
               {/* Headline */}
               <h1 className="font-display text-[2.25rem] sm:text-5xl md:text-7xl lg:text-[5.5rem] xl:text-8xl text-foreground leading-[1.05] mb-3 sm:mb-6 tracking-tight">
                 External Wall &
-                <span className="block text-accent">Roof Coatings</span>
+                <span className="block text-accent">uPVC Windows</span>
               </h1>
 
               {/* Subtext */}
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-4 sm:mb-8 leading-relaxed max-w-xl">
-                Timeserved coatings specialists delivering external wall coatings, roof refurbishment,
-                and uPVC spraying across {displayArea} and surrounding areas.
+                Timeserved coatings specialists delivering external wall coatings and uPVC window and door
+                spraying across {displayArea} and surrounding areas.
               </p>
 
               {/* CTA Buttons */}
@@ -195,7 +195,7 @@ const Hero = ({ areaName }: HeroProps) => {
                           </SelectTrigger>
                           <SelectContent>
                             <SelectItem value="external-wall-coatings">External Wall Coatings</SelectItem>
-                            <SelectItem value="roof-refurbishment">Roof Refurbishment</SelectItem>
+                            <SelectItem value="wall-repairs-sealing-prep">Wall Repairs & Prep</SelectItem>
                             <SelectItem value="upvc-spraying">uPVC Window & Door Spraying</SelectItem>
                             <SelectItem value="other">Not Sure Yet</SelectItem>
                           </SelectContent>
@@ -321,7 +321,7 @@ const Hero = ({ areaName }: HeroProps) => {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="external-wall-coatings">External Wall Coatings</SelectItem>
-                    <SelectItem value="roof-refurbishment">Roof Refurbishment</SelectItem>
+                    <SelectItem value="wall-repairs-sealing-prep">Wall Repairs & Prep</SelectItem>
                     <SelectItem value="upvc-spraying">uPVC Window & Door Spraying</SelectItem>
                     <SelectItem value="other">Not Sure Yet</SelectItem>
                   </SelectContent>

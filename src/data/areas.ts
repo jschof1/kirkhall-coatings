@@ -25,13 +25,13 @@ export const areas: Area[] = [
     postcodes: ["ML1", "ML2"],
     responseTime: "Same day",
     description:
-      "External wall coatings, roof refurbishment, and uPVC spraying for homes and commercial properties across Motherwell. Every project is delivered with full prep, repair-led application, and weather-ready finishes.",
+      "External wall coatings and uPVC window and door spraying for homes and commercial properties across Motherwell. Every project is delivered with full prep, repair-led application, and weather-ready finishes.",
     localContext:
       "Based in Newarthill with rapid response across Motherwell and nearby ML postcodes.",
     metaTitle:
       "External Wall Coatings Motherwell | Kirkhall Wall Coatings",
     metaDescription:
-      "Kirkhall Wall Coatings provides wall coating systems, roof refurbishment, and uPVC spraying in Motherwell and ML1-ML2 areas.",
+      "Kirkhall Wall Coatings provides wall coating systems and uPVC window and door spraying in Motherwell and ML1-ML2 areas.",
     neighborhoods: ["Newarthill", "Holytown", "Carfin", "Forgewood"],
     landmarks: ["Strathclyde Country Park", "Fir Park", "North Lanarkshire Civic Centre"],
     architecturalStyles: [
@@ -62,7 +62,7 @@ export const areas: Area[] = [
     metaTitle:
       "Wall Coatings Glasgow | Kirkhall Wall Coatings",
     metaDescription:
-      "Wall coatings, roof restoration, and uPVC spraying for Glasgow properties with prep-first workmanship and durable finishes.",
+      "Wall coatings and uPVC window and door spraying for Glasgow properties with prep-first workmanship and durable finishes.",
     neighborhoods: ["Dennistoun", "Partick", "Shawlands", "Merchant City"],
     landmarks: ["Glasgow Green", "SEC Campus", "Riverside Museum"],
     architecturalStyles: [
@@ -85,13 +85,13 @@ export const areas: Area[] = [
     postcodes: ["G67", "G68"],
     responseTime: "Next day",
     description:
-      "High-performance wall and roof coating solutions for Cumbernauld homes and businesses, including full prep and remediation of weathered render.",
+      "High-performance wall coating and uPVC window spraying solutions for Cumbernauld homes and businesses, including full prep and remediation of weathered render.",
     localContext:
       "Regular project coverage across Cumbernauld villages and surrounding business parks.",
     metaTitle:
       "External Wall Coatings Cumbernauld | Kirkhall Wall Coatings",
     metaDescription:
-      "External wall coatings, roof refurbishment, and uPVC spraying for Cumbernauld properties in G67 and G68."
+      "External wall coatings and uPVC window and door spraying for Cumbernauld properties in G67 and G68."
   },
   {
     name: "Coatbridge",
@@ -100,13 +100,13 @@ export const areas: Area[] = [
     postcodes: ["ML5"],
     responseTime: "Next day",
     description:
-      "Coatbridge coating projects focused on masonry protection, roofline renewal, and sprayed finish upgrades for uPVC windows and doors.",
+      "Coatbridge coating projects focused on masonry protection and sprayed finish upgrades for uPVC windows, doors, and trims.",
     localContext:
       "Local coverage throughout Coatbridge with practical schedules for occupied homes.",
     metaTitle:
       "Property Coatings Coatbridge | Kirkhall Wall Coatings",
     metaDescription:
-      "Kirkhall Wall Coatings delivers external wall coating, roof refurbishment, and uPVC spraying in Coatbridge."
+      "Kirkhall Wall Coatings delivers external wall coating and uPVC window and door spraying in Coatbridge."
   },
   {
     name: "Airdrie",
@@ -115,13 +115,13 @@ export const areas: Area[] = [
     postcodes: ["ML6"],
     responseTime: "Same day",
     description:
-      "Airdrie external coating and refurbishment services for roughcast, render, and brickwork elevations, plus roof and uPVC upgrades.",
+      "Airdrie external coating and refurbishment services for roughcast, render, and brickwork elevations, plus uPVC window and door respraying.",
     localContext:
       "Fast lead times across Airdrie and nearby Lanarkshire commuter corridors.",
     metaTitle:
       "External Wall Coatings Airdrie | Kirkhall Wall Coatings",
     metaDescription:
-      "Coatings and refurbishment services for Airdrie properties, including walls, roofs, and uPVC surfaces."
+      "Coatings and refurbishment services for Airdrie properties, including walls and uPVC windows and doors."
   },
   {
     name: "Wishaw",
@@ -130,13 +130,13 @@ export const areas: Area[] = [
     postcodes: ["ML2"],
     responseTime: "Same day",
     description:
-      "Wishaw coverage for wall coatings, roof restoration, and sprayed finish systems that improve curb appeal and durability.",
+      "Wishaw coverage for wall coatings and uPVC window spraying with prep-led systems that improve curb appeal and durability.",
     localContext:
       "Convenient servicing for Wishaw households and commercial sites from our Motherwell base.",
     metaTitle:
       "Wall Coatings Wishaw | Kirkhall Wall Coatings",
     metaDescription:
-      "Reliable wall coatings, roof refurbishment, and uPVC spraying for Wishaw properties."
+      "Reliable wall coatings and uPVC window and door spraying for Wishaw properties."
   },
   {
     name: "Bellshill",
@@ -145,13 +145,13 @@ export const areas: Area[] = [
     postcodes: ["ML4"],
     responseTime: "Next day",
     description:
-      "Bellshill-area wall and roof coating works for private homes, landlords, and local commercial units needing durable external refurbishment.",
+      "Bellshill-area wall coating and uPVC spraying works for private homes, landlords, and local commercial units needing durable external refurbishment.",
     localContext:
       "Efficient logistics for Bellshill and Eurocentral-adjacent projects.",
     metaTitle:
-      "Wall and Roof Coatings Bellshill | Kirkhall Wall Coatings",
+      "Wall & uPVC Coatings Bellshill | Kirkhall Wall Coatings",
     metaDescription:
-      "External coatings and refurbishment services for Bellshill properties, including masonry, roof tiles, and uPVC."
+      "External coatings and refurbishment services for Bellshill properties, including masonry and uPVC joinery."
   },
   {
     name: "Kilsyth",
@@ -160,13 +160,13 @@ export const areas: Area[] = [
     postcodes: ["G65"],
     responseTime: "Next day",
     description:
-      "External coating and roofline restoration services in Kilsyth, designed for elevated exposure and mixed traditional-modern housing.",
+      "External coating and uPVC window spraying services in Kilsyth, designed for elevated exposure and mixed traditional-modern housing.",
     localContext:
       "Coverage for Kilsyth and nearby villages with practical, weather-aware scheduling.",
     metaTitle:
       "External Coatings Kilsyth | Kirkhall Wall Coatings",
     metaDescription:
-      "Kirkhall Wall Coatings provides wall coating systems, roof refurbishment, and uPVC spraying in Kilsyth."
+      "Kirkhall Wall Coatings provides wall coating systems and uPVC window and door spraying in Kilsyth."
   },
   {
     name: "North Lanarkshire",
@@ -175,7 +175,7 @@ export const areas: Area[] = [
     postcodes: ["ML1", "ML2", "ML4", "ML5", "ML6", "G67", "G68"],
     responseTime: "Same day to next day",
     description:
-      "Regional service page covering Kirkhall Wall Coatings work across North Lanarkshire towns, focused on external wall systems, roof restoration, and sprayed finish upgrades.",
+      "Regional service page covering Kirkhall Wall Coatings work across North Lanarkshire towns, focused on external wall systems and uPVC window and trim spraying.",
     localContext:
       "Primary operational region for Kirkhall Wall Coatings with the fastest site surveys and install starts."
   },

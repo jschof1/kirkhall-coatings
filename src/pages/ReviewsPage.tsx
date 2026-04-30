@@ -29,8 +29,8 @@ const testimonials = [
     name: "Aileen R",
     location: "G41",
     rating: 5,
-    text: "Our roof refurbishment was handled professionally. The team explained every stage and left the site spotless.",
-    service: "Roof Refurbishment",
+    text: "Our uPVC window respray was handled professionally. The team explained every stage and left the site spotless.",
+    service: "uPVC Window Spraying",
     date: "January 2026",
     verified: true,
   },
@@ -57,7 +57,7 @@ const testimonials = [
     location: "ML2",
     rating: 5,
     text: "Excellent prep and repair work before coating. The property looks cleaner and better protected now.",
-    service: "Wall & Roof Refurbishment",
+    service: "Wall & uPVC Refurbishment",
     date: "January 2026",
     verified: false,
   },
@@ -105,7 +105,7 @@ const ReviewsPage = () => {
     <div className="min-h-screen bg-background">
       <SEO 
         title={`Customer Reviews & Testimonials | ${siteConfig.business.name}`}
-        description={`Read real reviews from customers across Motherwell, North Lanarkshire, and Glasgow for external wall coatings, roof refurbishment, and uPVC spraying.`}
+        description={`Read real reviews from customers across Motherwell, North Lanarkshire, and Glasgow for external wall coatings and uPVC window and door spraying.`}
         canonical="https://kirkhall-wall-coatings.co.uk/reviews"
       />
 
@@ -119,7 +119,7 @@ const ReviewsPage = () => {
           <div className="absolute inset-0 z-0">
             <img 
               src={heroBg}
-              alt="Premium Wall Coating & Roof Refurbishment Reviews"
+              alt="Premium wall coating and uPVC window spraying reviews"
               className="absolute inset-0 w-full h-full object-cover opacity-30"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-charcoal/90 via-charcoal/80 to-charcoal/90" />
@@ -287,7 +287,7 @@ const ReviewsPage = () => {
                 Latest <span className="text-gold-gradient">Customer Reviews</span>
               </h2>
               <p className="text-charcoal/60 text-xl font-body">
-                Real feedback from homeowners who chose Kirkhall Wall Coatings for external wall coatings, roof refurbishment, and uPVC spraying.
+                Real feedback from homeowners who chose Kirkhall Wall Coatings for external wall coatings and uPVC window and door spraying.
               </p>
             </div>
 

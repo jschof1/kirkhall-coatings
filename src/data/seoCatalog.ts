@@ -23,18 +23,11 @@ export const serviceSeoEntries: ServiceSeoEntry[] = [
       "External wall coating specialists in Motherwell, North Lanarkshire and Glasgow. Full prep, repairs and multi-coat weatherproof systems built to last.",
   },
   {
-    slug: "roof-refurbishment",
-    title: "Roof Refurbishment",
-    metaTitle: "Roof Refurbishment North Lanarkshire | Kirkhall Wall Coatings",
-    metaDescription:
-      "Roof refurbishment for tiled and concrete roofs across North Lanarkshire and Glasgow. Safe prep, moss removal, repairs and protective roof coatings.",
-  },
-  {
     slug: "upvc-spraying",
     title: "uPVC Window & Door Spraying",
-    metaTitle: "uPVC Spraying Motherwell & Glasgow | Kirkhall Wall Coatings",
+    metaTitle: "uPVC Window Spraying Motherwell & Glasgow | Kirkhall Wall Coatings",
     metaDescription:
-      "uPVC spraying specialists for windows, doors, fascias and garage doors in Motherwell and Glasgow. Factory-style spray finish without full replacement cost.",
+      "uPVC window and door spraying in Motherwell, North Lanarkshire and Glasgow. HVLP prep, professional masking, fascias and garage doors. Factory-style finish without full replacement.",
   },
   {
     slug: "wall-repairs-sealing-prep",
@@ -69,12 +62,12 @@ export const projectSeoEntries: ProjectSeoEntry[] = [
     tag: "External Wall Coatings",
   },
   {
-    slug: "roof-refurbishment-airdrie",
-    title: "Roof Refurbishment and Coating",
+    slug: "upvc-window-respray-airdrie",
+    title: "uPVC Window and Door Respray",
     shortDescription:
-      "Roof cleaning, targeted repairs and protective coating system to restore appearance and resilience.",
+      "Front elevation uPVC windows and doors colour-changed with HVLP prep, masking, and a durable spray finish.",
     location: "Airdrie",
-    tag: "Roof Refurbishment",
+    tag: "uPVC Spraying",
   },
   {
     slug: "upvc-spraying-glasgow",
@@ -86,11 +79,11 @@ export const projectSeoEntries: ProjectSeoEntry[] = [
   },
   {
     slug: "combined-refurbishment-coatbridge",
-    title: "External Walls and Roof Upgrade",
+    title: "External Walls and uPVC Refresh",
     shortDescription:
-      "Combined external wall and roof refurbishment package for weather protection and curb appeal.",
+      "Coordinated external wall coating and uPVC window and trim spraying for a matched, weather-ready exterior.",
     location: "Coatbridge",
-    tag: "Wall and Roof Refurbishment",
+    tag: "Wall and uPVC Refurbishment",
   },
   {
     slug: "commercial-office-refresh",

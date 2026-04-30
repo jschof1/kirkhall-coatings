@@ -1,5 +1,4 @@
 import externalWallCoatingsImg from "@/assets/kirkhall/kirkhall-service-external-wall-coatings-4x3.jpeg";
-import roofRefurbishmentImg from "@/assets/kirkhall/kirkhall-service-roof-refurbishment-4x3.jpeg";
 import upvcSprayingImg from "@/assets/kirkhall/kirkhall-service-upvc-spraying-4x3.jpeg";
 import wallPrepRepairsImg from "@/assets/kirkhall/kirkhall-service-wall-prep-repairs-4x3.jpeg";
 import upvcDoorSprayImg from "@/assets/kirkhall/kirkhall-service-upvc-door-spray-4x3.jpeg";
@@ -22,15 +21,8 @@ export const paintingServices: PaintingService[] = [
     image: externalWallCoatingsImg,
   },
   {
-    title: "Roof Refurbishment",
-    shortDesc: "Roof cleaning, repairs and protective coatings to extend roof life.",
-    accent: "220 40% 18%",
-    cta: "Restore your roof",
-    image: roofRefurbishmentImg,
-  },
-  {
     title: "uPVC Window & Door Spraying",
-    shortDesc: "Factory-style spray finishes for uPVC frames, doors, fascias and trims.",
+    shortDesc: "HVLP window-led respraying for frames, doors, fascias and trims without replacement.",
     accent: "32 58% 58%",
     cta: "Transform your uPVC",
     image: upvcSprayingImg,

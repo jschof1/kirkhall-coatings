@@ -10,7 +10,7 @@
 - Canonical site URL in app config is https://kirkhall-wall-coatings.co.uk (SEO and schema should stay consistent with it).
 - Client brief and verified public-footprint notes live in docs/kKrkhall-Coatings.md (filename keeps the brief spelling kKrkhall; public listings use Kirkhall).
 - Webhook endpoints are documented in docs/webhooks.md and mirrored in src/data/siteConfig.ts under siteConfig.webhooks; tests/content-integrity.spec.ts enforces doc and config alignment.
-- Site positioning is Kirkhall Wall Coatings: external wall coatings, roof refurbishment, and uPVC spraying across Motherwell, North Lanarkshire, and Glasgow.
-- Hero and quote flows use service intent values such as external-wall-coatings, roof-refurbishment, and upvc-spraying alongside sensible fallbacks.
+- Site positioning is Kirkhall Wall Coatings: external wall coatings and uPVC window and door spraying across Motherwell, North Lanarkshire, and Glasgow.
+- Hero and quote flows use service intent values such as external-wall-coatings, wall-repairs-sealing-prep, and upvc-spraying alongside sensible fallbacks.
 - Brand lockups and favicon use hand-authored SVGs under src/assets/branding/ with copies in public/ for absolute URLs and JSON-LD where needed.
 - Static and prerender SEO metadata is defined in src/seo/routes.ts and must stay aligned with page-level SEO components so builds and integrity tests pass.

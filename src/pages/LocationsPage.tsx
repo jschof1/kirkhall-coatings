@@ -52,7 +52,7 @@ const LocationsPage = () => {
     <div className="min-h-screen bg-background">
       <SEO 
         title={`Service Areas | ${siteConfig.business.name}`}
-        description={`${siteConfig.business.name} provides external wall coatings, roof refurbishment, and uPVC spraying across Motherwell, North Lanarkshire, and Glasgow.`}
+        description={`${siteConfig.business.name} provides external wall coatings and uPVC window and door spraying across Motherwell, North Lanarkshire, and Glasgow.`}
         canonical="https://kirkhall-wall-coatings.co.uk/locations"
       />
 

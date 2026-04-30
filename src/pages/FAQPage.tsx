@@ -56,7 +56,7 @@ const faqCategories = [
     questions: [
       {
         q: "What services do you offer?",
-        a: "Our core services are external wall coatings, roof refurbishment, and uPVC spraying for windows, doors, fascias, and trims."
+        a: "Our core services are external wall coatings and uPVC window and door spraying for windows, doors, fascias, and trims."
       },
       {
         q: "Do you repair surfaces before coating?",
@@ -101,7 +101,7 @@ const faqCategories = [
         a: "Most external work is planned around stable weather windows, but scheduling depends on the specific substrate and system requirements."
       },
       {
-        q: "Do you handle roof and wall repairs before coating?",
+        q: "Do you handle wall repairs before coating?",
         a: "Yes. We carry out relevant prep and repairs before coating so the finish bonds correctly and performs long term."
       }
     ]
@@ -180,7 +180,7 @@ const FAQPage = () => {
     <div className="min-h-screen bg-background">
       <SEO 
         title="Frequently Asked Questions | Kirkhall Wall Coatings"
-        description="Find answers to common questions about external wall coatings, roof refurbishment, and uPVC spraying across Motherwell, North Lanarkshire, and Glasgow."
+        description="Find answers to common questions about external wall coatings and uPVC window and door spraying across Motherwell, North Lanarkshire, and Glasgow."
         canonical={`${siteConfig.seo.siteUrl}/faq`}
         schema={[faqSchema, breadcrumbSchema]}
       />

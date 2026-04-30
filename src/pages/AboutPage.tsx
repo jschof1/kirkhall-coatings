@@ -61,7 +61,7 @@ const AboutPage = () => {
 
   const expertisePoints = [
     "Expert knowledge of premium paint brands and specialist finishes.",
-    "Specialized methods for external wall coatings, roof refurbishment, and uPVC spraying.",
+    "Specialized methods for external wall coatings and uPVC window and door spraying.",
     "Deep understanding of surface preparation and material compatibility.",
     "Meticulous site protection and daily clean-up protocols.",
     "Bespoke colour consultation to match your home's unique character."
@@ -71,7 +71,7 @@ const AboutPage = () => {
     <div className="min-h-screen bg-cream">
       <SEO 
         title="About Kirkhall Wall Coatings | External Coatings Specialists"
-        description="Learn about Kirkhall Wall Coatings and our prep-first approach to external wall coatings, roof refurbishment, and uPVC spraying across North Lanarkshire and Glasgow."
+        description="Learn about Kirkhall Wall Coatings and our prep-first approach to external wall coatings and uPVC window and door spraying across North Lanarkshire and Glasgow."
         canonical="https://kirkhall-wall-coatings.co.uk/about"
       />
 
@@ -168,7 +168,7 @@ const AboutPage = () => {
                     We know exterior condition affects both property value and long-term maintenance. That is why we focus on thorough preparation, correct product systems, and dependable application from survey to completion.
                   </p>
                   <p>
-                    Our passion lies in the details. Whether it is external wall remediation, roof coating preparation, or uPVC spraying, we treat every property as if it were our own.
+                    Our passion lies in the details. Whether it is external wall remediation, prep and sealing stages, or uPVC window spraying, we treat every property as if it were our own.
                   </p>
                 </div>
                 <div className="pt-4">

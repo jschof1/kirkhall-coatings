@@ -13,6 +13,10 @@ const DynamicSlugPage = () => {
     return <NotFound />;
   }
 
+  if (slug === "roof-refurbishment") {
+    return <Navigate to="/upvc-spraying" replace />;
+  }
+
   // If the URL contains /locations/, redirect to the flat version
   if (location.pathname.startsWith('/locations/')) {
     return <Navigate to={`/${slug}`} replace />;

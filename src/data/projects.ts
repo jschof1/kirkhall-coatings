@@ -1,5 +1,4 @@
 import externalWallImg from "@/assets/kirkhall/kirkhall-service-external-wall-coatings-4x3.jpeg";
-import roofRefurbImg from "@/assets/kirkhall/kirkhall-service-roof-refurbishment-4x3.jpeg";
 import upvcSprayingImg from "@/assets/kirkhall/kirkhall-service-upvc-spraying-4x3.jpeg";
 import workmanshipImg from "@/assets/kirkhall/kirkhall-trust-team-workmanship-4x3.jpeg";
 import heroWallImg from "@/assets/kirkhall/kirkhall-hero-external-wall-coating-16x9.jpeg";
@@ -48,27 +47,27 @@ export const projects: Project[] = [
       warranty: "Guaranteed Workmanship",
     },
     features: ["Crack and substrate repairs", "Biocide clean and prep", "Minimum two-coat finish", "Neat site management"],
-    relatedProjects: ["roof-refurbishment-airdrie", "upvc-spraying-glasgow"],
+    relatedProjects: ["upvc-window-respray-airdrie", "upvc-spraying-glasgow"],
   },
   {
-    slug: "roof-refurbishment-airdrie",
-    title: "Roof Refurbishment and Coating",
+    slug: "upvc-window-respray-airdrie",
+    title: "uPVC Window and Door Respray",
     location: "Airdrie",
     area: "Airdrie",
-    tag: "Roof Refurbishment",
-    image: roofRefurbImg,
-    gallery: [roofRefurbImg],
+    tag: "uPVC Spraying",
+    image: upvcSprayingImg,
+    gallery: [upvcSprayingImg],
     shortDescription:
-      "Roof cleaning, targeted repairs and protective coating system to restore appearance and resilience.",
+      "Front elevation uPVC windows and doors colour-changed with HVLP prep, masking, and a durable spray finish.",
     fullDescription:
-      "This Airdrie roof refurbishment included contamination removal, repair work to vulnerable sections, and application of a protective coating system to improve long-term weather resistance and appearance.",
+      "This Airdrie project focused on tired white uPVC windows and a composite-style front door. We deep cleaned and keyed surfaces, masked glazing and brickwork, then applied a coordinated anthracite-style spray system for a factory-smooth finish without replacement.",
     details: {
-      projectType: "Roof Refurbishment",
-      duration: "4 Days",
-      materials: ["Roof Cleaner", "Roof Repair Compound", "Protective Roof Coating"],
+      projectType: "uPVC Window and Door Spraying",
+      duration: "3 Days",
+      materials: ["uPVC Adhesion Promoter", "HVLP Spray Coating", "Protective Clear Finish"],
       warranty: "Guaranteed Workmanship",
     },
-    features: ["Roof condition assessment", "Safe prep and access", "Targeted roof repairs", "Protective finish coating"],
+    features: ["Window-led masking plan", "HVLP spray application", "Hardware-safe prep", "Colour-matched frames and door"],
     relatedProjects: ["external-wall-coating-motherwell", "upvc-spraying-glasgow"],
   },
   {
@@ -94,24 +93,24 @@ export const projects: Project[] = [
   },
   {
     slug: "combined-refurbishment-coatbridge",
-    title: "External Walls and Roof Upgrade",
+    title: "External Walls and uPVC Refresh",
     location: "Coatbridge",
     area: "Coatbridge",
-    tag: "Wall and Roof Refurbishment",
+    tag: "Wall and uPVC Refurbishment",
     image: workmanshipImg,
-    gallery: [workmanshipImg, externalWallImg, roofRefurbImg],
+    gallery: [workmanshipImg, externalWallImg, upvcSprayingImg],
     shortDescription:
-      "Combined external wall and roof refurbishment package for weather protection and curb appeal.",
+      "Coordinated external wall coating and uPVC window and trim spraying for a matched, weather-ready exterior.",
     fullDescription:
-      "This Coatbridge property received both wall and roof refurbishment. We coordinated prep and coatings across both surfaces to deliver a consistent and durable external finish.",
+      "This Coatbridge property received wall coating works alongside uPVC window and trim respraying. We sequenced prep and coatings so masonry and joinery finishes aligned for a consistent exterior refresh.",
     details: {
-      projectType: "Combined Wall and Roof Package",
+      projectType: "Wall Coating and uPVC Package",
       duration: "7 Days",
-      materials: ["Masonry Coating System", "Roof Coating System", "Repair and Prep Consumables"],
+      materials: ["Masonry Coating System", "uPVC Spray Coating", "Repair and Prep Consumables"],
       warranty: "Guaranteed Workmanship",
     },
-    features: ["Single coordinated project plan", "Wall and roof prep sequencing", "Durable weatherproof finishes", "Neat handover"],
-    relatedProjects: ["external-wall-coating-motherwell", "roof-refurbishment-airdrie"],
+    features: ["Single coordinated project plan", "Wall prep then uPVC masking phases", "Durable weatherproof finishes", "Neat handover"],
+    relatedProjects: ["external-wall-coating-motherwell", "upvc-spraying-glasgow"],
   },
   {
     slug: "commercial-office-refresh",

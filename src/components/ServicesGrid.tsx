@@ -52,7 +52,7 @@ const ServicesGrid = ({ areaName }: ServicesGridProps) => {
             Specialist Coating Services in {displayArea}
           </h2>
           <p className="text-slate-300 text-lg max-w-2xl mx-auto">
-            External wall coatings, roof refurbishment, and uPVC spraying
+            External wall coatings and uPVC window and door spraying
             delivered with prep-first standards across {displayArea}.
           </p>
         </motion.div>

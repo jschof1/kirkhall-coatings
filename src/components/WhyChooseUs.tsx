@@ -33,7 +33,7 @@ const WhyChooseUs = ({ areaName }: WhyChooseUsProps) => {
       icon: Sparkles,
       title: "Durable Coating Systems",
       description:
-        "Weather-resistant finishes for external walls, roofs and uPVC.",
+        "Weather-resistant finishes for external walls and uPVC joinery.",
     },
     {
       icon: Shield,

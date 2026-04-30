@@ -12,7 +12,7 @@ import { siteConfig, getPhoneLink, getEmailLink } from "@/data/siteConfig";
 
 const serviceOptions = [
   { id: "external-wall-coatings", label: "External Wall Coatings", icon: Home, description: "Repair, prep and protective coatings" },
-  { id: "roof-refurbishment", label: "Roof Refurbishment", icon: Paintbrush, description: "Clean, repair and roof coating systems" },
+  { id: "wall-repairs-sealing-prep", label: "Wall Repairs & Prep", icon: Paintbrush, description: "Defect repair, sealing and prep before coatings" },
   { id: "upvc-spraying", label: "uPVC Spraying", icon: Layers, description: "Windows, doors, fascias and trims" },
   { id: "surface-preparation", label: "Surface Preparation", icon: Sparkles, description: "Defect repair and substrate prep" },
   { id: "commercial-coatings", label: "Commercial Coatings", icon: Briefcase, description: "Commercial units and multi-property work" },
@@ -132,7 +132,7 @@ const GetQuotePage = () => {
     <>
       <SEO 
         title={`Get a Free Quote ${siteConfig.seo.titleSuffix}`}
-        description={`Get a free, no-obligation quote for external wall coatings, roof refurbishment, and uPVC spraying. Fast response across Motherwell, North Lanarkshire, and Glasgow.`}
+        description={`Get a free, no-obligation quote for external wall coatings and uPVC window and door spraying. Fast response across Motherwell, North Lanarkshire, and Glasgow.`}
         canonical="https://kirkhall-wall-coatings.co.uk/get-quote"
       />
 

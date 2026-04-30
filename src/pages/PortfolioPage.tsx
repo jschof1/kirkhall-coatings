@@ -25,7 +25,7 @@ const PortfolioPage = () => {
     <div className="min-h-screen bg-cream-warm/20">
       <SEO 
         title="Our Portfolio | Kirkhall Wall Coatings"
-        description="Explore external wall coatings, roof refurbishment, and uPVC spraying projects across Motherwell, North Lanarkshire, and Glasgow."
+        description="Explore external wall coatings and uPVC window and door spraying projects across Motherwell, North Lanarkshire, and Glasgow."
         canonical={`${siteConfig.seo.siteUrl}/portfolio`}
       />
 
@@ -52,7 +52,7 @@ const PortfolioPage = () => {
                 Project <span className="text-accent">Portfolio</span>
               </h1>
               <p className="text-xl md:text-2xl text-white/80 max-w-2xl leading-relaxed">
-                Explore recent Kirkhall projects across Motherwell, North Lanarkshire, and Glasgow, including external wall coatings, roof refurbishment, and uPVC spraying.
+                Explore recent Kirkhall projects across Motherwell, North Lanarkshire, and Glasgow, including external wall coatings and uPVC window and door spraying.
               </p>
             </div>
           </div>

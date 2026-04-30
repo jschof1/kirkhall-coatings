@@ -28,8 +28,8 @@ const Testimonials = ({ areaName }: TestimonialsProps) => {
       name: "Karen D",
       location: "G67",
       rating: 5,
-      text: "Roof refurbishment was completed on schedule and the communication was excellent from quote to handover.",
-      service: "Roof refurbishment",
+      text: "Our uPVC windows were resprayed on schedule and the communication was excellent from quote to handover.",
+      service: "uPVC window spraying",
       initials: "KD",
     },
     {
@@ -52,8 +52,8 @@ const Testimonials = ({ areaName }: TestimonialsProps) => {
       name: "Verified Customer",
       location: "ML5",
       rating: 5,
-      text: "From inspection to completion they were reliable and tidy every day. The new roof finish has transformed the property.",
-      service: "Roof refurbishment",
+      text: "From inspection to completion they were reliable and tidy every day. The new window colour has transformed the property.",
+      service: "uPVC window spraying",
       initials: "VC",
     },
     {

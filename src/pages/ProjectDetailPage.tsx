@@ -1,5 +1,5 @@
 import { siteConfig, getPhoneLink } from "@/data/siteConfig";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, Navigate } from "react-router-dom";
 import SEO from "@/components/SEO";
 import { getProjectBySlug, getRelatedProjects } from "@/data/projects";
 import Header from "@/components/Header";
@@ -23,6 +23,11 @@ import NotFound from "./NotFound";
 
 const ProjectDetailPage = () => {
   const { projectSlug } = useParams<{ projectSlug: string }>();
+
+  if (projectSlug === "roof-refurbishment-airdrie") {
+    return <Navigate to="/projects/upvc-window-respray-airdrie" replace />;
+  }
+
   const project = projectSlug ? getProjectBySlug(projectSlug) : undefined;
 
   if (!project) {

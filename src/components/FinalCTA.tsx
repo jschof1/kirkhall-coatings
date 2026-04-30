@@ -161,8 +161,8 @@ const FinalCTA = ({ areaName }: FinalCTAProps) => {
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="external-wall-coatings">External Wall Coatings</SelectItem>
-                    <SelectItem value="roof-refurbishment">Roof Refurbishment</SelectItem>
-                    <SelectItem value="upvc-spraying">uPVC Spraying</SelectItem>
+                    <SelectItem value="wall-repairs-sealing-prep">Wall Repairs & Prep</SelectItem>
+                    <SelectItem value="upvc-spraying">uPVC Window & Door Spraying</SelectItem>
                     <SelectItem value="other">Not Sure Yet</SelectItem>
                   </SelectContent>
                 </Select>
