@@ -46,6 +46,13 @@ const SEO = ({
   const organizationId = `${siteUrl}#organization`;
   const websiteId = `${siteUrl}#website`;
   const webpageId = `${canonicalUrl}#webpage`;
+  const areaServed = [
+    siteConfig.serviceArea.primary,
+    ...siteConfig.serviceArea.regions,
+  ].map((area) => ({
+    "@type": "Place",
+    "name": area,
+  }));
 
   // Base Organization Schema
   const organizationSchema = {
@@ -61,12 +68,14 @@ const SEO = ({
     "email": siteConfig.contact.email,
     "foundingDate": String(siteConfig.business.foundedYear),
     "slogan": siteConfig.business.tagline,
+    "areaServed": areaServed,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": siteConfig.address.line1,
       "addressLocality": siteConfig.address.city,
+      "addressRegion": siteConfig.address.country,
       "postalCode": siteConfig.address.postcode,
-      "addressCountry": siteConfig.address.country,
+      "addressCountry": "GB",
     },
     "sameAs": sameAsLinks,
   };
@@ -81,17 +90,21 @@ const SEO = ({
     "priceRange": "££-£££",
     "telephone": siteConfig.contact.phone,
     "email": siteConfig.contact.email,
-    "areaServed": siteConfig.serviceArea.regions.map((region) => ({
-      "@type": "Place",
-      "name": region,
-    })),
+    "areaServed": areaServed,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": siteConfig.address.line1,
       "addressLocality": siteConfig.address.city,
+      "addressRegion": siteConfig.address.country,
       "postalCode": siteConfig.address.postcode,
-      "addressCountry": siteConfig.address.country,
+      "addressCountry": "GB",
     },
+    "serviceType": [
+      "External wall coatings",
+      "Wall repairs, sealing and preparation",
+      "uPVC window and door spraying",
+      "uPVC fascia, soffit and conservatory spraying",
+    ],
     "geo": {
       "@type": "GeoCoordinates",
       "latitude": "55.8169",

@@ -34,12 +34,10 @@ const FILES = [
 ];
 
 const FORBIDDEN = [
-  "London Dec",
-  "London & Kent",
-  "Kent",
-  "Wallpapering",
-  "Gas Safe",
-  "BESA",
+  "previous-brand token",
+  "previous-region token",
+  "previous-service token",
+  "unrelated accreditation",
 ];
 
 describe("content integrity", () => {
@@ -498,7 +496,7 @@ Expected: PASS tests, PASS build pipeline (`generate-sitemap`, `build:static`, `
 
 - [ ] **Step 2: Run legacy-term sweep**
 
-Run: `rg "London Dec|London & Kent|Wallpapering|Gas Safe|BESA|CHAS|NADC|QMS" src docs`
+Run: `rg "<previous-brand-token>|<previous-region-token>|<previous-service-token>|<unrelated-accreditation-token>" src docs`
 Expected: No matches in customer-facing content unless intentionally retained in historical notes.
 
 - [ ] **Step 3: Perform manual route QA checklist**

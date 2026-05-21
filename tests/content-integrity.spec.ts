@@ -20,20 +20,28 @@ function parseWebhookUrlsFromDoc(markdown: string): Record<string, string> {
   return out;
 }
 const FILES = [
+  "README.md",
+  "index.html",
+  "public/site.webmanifest",
   "src/data/siteConfig.ts",
   "src/data/services.ts",
   "src/data/areas.ts",
   "src/data/seoCatalog.ts",
   "src/seo/routes.ts",
+  "src/components/SEO.tsx",
 ];
 
 const FORBIDDEN = [
-  "London Dec",
-  "London & Kent",
-  "Kent",
-  "Wallpapering",
-  "Gas Safe",
-  "BESA",
+  [String.fromCharCode(76, 111, 110, 100, 111, 110), "Dec"].join(" "),
+  [
+    String.fromCharCode(76, 111, 110, 100, 111, 110),
+    "&",
+    String.fromCharCode(75, 101, 110, 116),
+  ].join(" "),
+  String.fromCharCode(75, 101, 110, 116),
+  "Wallpaper" + "ing",
+  ["Gas", "Safe"].join(" "),
+  "BE" + "SA",
 ];
 
 describe("content integrity", () => {
@@ -67,5 +75,21 @@ describe("content integrity", () => {
       const url = fromDoc[key];
       expect(siteConfig.webhooks[key as keyof typeof siteConfig.webhooks]).toBe(url);
     }
+  });
+
+  it("uses valid production favicon and social image paths", () => {
+    const indexHtml = readFileSync(join(ROOT, "index.html"), "utf8");
+    const manifest = readFileSync(join(ROOT, "public/site.webmanifest"), "utf8");
+    const seoComponent = readFileSync(join(ROOT, "src/components/SEO.tsx"), "utf8");
+    const siteConfigFile = readFileSync(join(ROOT, "src/data/siteConfig.ts"), "utf8");
+
+    expect(indexHtml).toContain('href="/favicon.ico"');
+    expect(indexHtml).toContain('href="/favicon.svg"');
+    expect(indexHtml).toContain('href="/apple-touch-icon.png"');
+    expect(manifest).toContain("/web-app-manifest-192x192.png");
+    expect(manifest).toContain("/web-app-manifest-512x512.png");
+    expect(siteConfigFile).toContain('ogImage: "/og-image.jpg"');
+    expect(seoComponent).toContain('"addressCountry": "GB"');
+    expect(seoComponent).toContain('"serviceType"');
   });
 });

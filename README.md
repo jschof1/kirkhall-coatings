@@ -1,6 +1,6 @@
-# London Dec
+# Kirkhall Wall Coatings
 
-Marketing site for `https://londondec.co.uk`, built with Vite, React, TypeScript, and Tailwind.
+Marketing site for `https://kirkhall-wall-coatings.co.uk`, built with Vite, React, TypeScript, and Tailwind.
 
 ## Development
 

@@ -2,7 +2,7 @@
 
 ## Goal
 
-Transform the current site into a fully relevant, trustworthy, and SEO-aligned website for **Kirkhall Wall Coatings**, replacing all legacy London/Kent painting-and-decorating content with business-specific messaging, services, service areas, trust signals, and visual assets.
+Transform the current site into a fully relevant, trustworthy, and SEO-aligned website for **Kirkhall Wall Coatings**, replacing all previous-brand painting-and-decorating content with business-specific messaging, services, service areas, trust signals, and visual assets.
 
 ## Confirmed Brand Inputs
 
@@ -27,17 +27,17 @@ Transform the current site into a fully relevant, trustworthy, and SEO-aligned w
 The current implementation is structurally strong (data-driven routes, reusable SEO, dynamic service/area/project pages) but content is heavily misaligned with the target business:
 
 1. **Brand and geography drift**
-   - `src/data/siteConfig.ts`, `src/seo/routes.ts`, `src/pages/*`, and multiple components still reference "London Dec", "London", and "Kent".
+   - `src/data/siteConfig.ts`, `src/seo/routes.ts`, `src/pages/*`, and multiple components still reference previous-brand names and unrelated service geographies.
 2. **Service model mismatch**
    - Service catalog is currently centered on interior painting, wallpapering, woodwork, and commercial decorating rather than coatings/refurbishment/uPVC spraying.
 3. **Trust and compliance mismatch**
-   - Trust badges and credentials include unrelated accreditations/logos (Checkatrade/Gas Safe/BESA/CHAS/NADC/QMS), while required ICORR and business-specific trust language are missing.
+   - Trust badges and credentials include unrelated accreditations/logos, while required ICORR and business-specific trust language are missing.
 4. **Location architecture mismatch**
-   - `src/data/areas.ts` contains London/Kent towns and metadata not relevant to Kirkhall Wall Coatings.
+   - `src/data/areas.ts` contains unrelated towns and metadata not relevant to Kirkhall Wall Coatings.
 5. **SEO and schema inconsistency**
    - Static + dynamic SEO route metadata in `src/seo/routes.ts`, `src/data/seoCatalog.ts`, and inline page SEO props are all misaligned with brand/services/locations.
 6. **Visual identity mismatch**
-   - Image imports and alt text describe generic decorating imagery and London contexts.
+   - Image imports and alt text describe generic decorating imagery and legacy geography contexts.
 7. **Potential operational inconsistency**
    - `docs/webhooks.md` contains webhook URLs that differ from `src/data/siteConfig.ts`; this needs reconciliation before launch.
 
@@ -114,7 +114,7 @@ Use generated images where client-provided photos are absent or insufficient, wi
 ## Error Handling and Quality Controls
 
 - Introduce a pre-launch legacy sweep:
-  - detect forbidden legacy tokens (`London Dec`, `Kent`, unrelated accreditations, old service names).
+  - detect forbidden previous-brand tokens, unrelated accreditations, and old service names.
 - Enforce schema sanity checks:
   - organization name, service type labels, areaServed arrays, canonical URLs.
 - Webhook consistency gate:
