@@ -199,7 +199,7 @@ const AreaPage = () => {
       description:
         area.description ||
         `External wall coatings and uPVC window and door spraying in ${area.name}.`,
-      url: `https://kirkhall-wall-coatings.co.uk/${area.slug}`,
+      url: `https://kirkhallcoatingsltd.com/${area.slug}`,
       telephone: siteConfig.contact.phone,
       email: siteConfig.contact.email,
       areaServed: {
@@ -225,13 +225,13 @@ const AreaPage = () => {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "https://kirkhall-wall-coatings.co.uk/",
+          item: "https://kirkhallcoatingsltd.com/",
         },
         {
           "@type": "ListItem",
           position: 2,
           name: area.name,
-          item: `https://kirkhall-wall-coatings.co.uk/${area.slug}`,
+          item: `https://kirkhallcoatingsltd.com/${area.slug}`,
         },
       ],
     },
@@ -331,7 +331,7 @@ const AreaPage = () => {
           area.metaDescription ||
           `External wall coatings and uPVC window and door spraying in ${area.name}. Free local surveys for ${area.postcodes.join(", ")} properties.`
         }
-        canonical={`https://kirkhall-wall-coatings.co.uk/${area.slug}`}
+        canonical={`https://kirkhallcoatingsltd.com/${area.slug}`}
         schema={schemas}
       />
       <TopBanner areaName={area.name} />

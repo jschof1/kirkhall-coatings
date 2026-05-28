@@ -133,7 +133,7 @@ const GetQuotePage = () => {
       <SEO 
         title={`Get a Free Quote ${siteConfig.seo.titleSuffix}`}
         description={`Get a free, no-obligation quote for external wall coatings and uPVC window and door spraying. Fast response across Motherwell, North Lanarkshire, and Glasgow.`}
-        canonical="https://kirkhall-wall-coatings.co.uk/get-quote"
+        canonical="https://kirkhallcoatingsltd.com/get-quote"
       />
 
       <Header />

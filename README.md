@@ -1,6 +1,6 @@
 # Kirkhall Wall Coatings
 
-Marketing site for `https://kirkhall-wall-coatings.co.uk`, built with Vite, React, TypeScript, and Tailwind.
+Marketing site for `https://kirkhallcoatingsltd.com`, built with Vite, React, TypeScript, and Tailwind.
 
 ## Development
 

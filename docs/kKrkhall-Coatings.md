@@ -8,7 +8,7 @@ Client Form Content:
 
 * **Business Name:** kKrkhall Coatings  
 * **Primary Contact (Name):** kevin vale  
-* **Primary Phone Number:** \+447427915070 — canonical on https://kirkhall-wall-coatings.co.uk; align listings to this number.  
+* **Primary Phone Number:** \+447427915070 — canonical on https://kirkhallcoatingsltd.com; align listings to this number.  
 * **Email:** [kvaledrywall@yahoo.co.uk](mailto:kvaledrywall@yahoo.co.uk)  
 * **Location:** Motherwell, ML1 5BG, GB (Locality: motherwell)
 

@@ -193,9 +193,9 @@ const ServiceDetailPage = () => {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kirkhall-wall-coatings.co.uk/" },
-        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://kirkhall-wall-coatings.co.uk/services" },
-        { "@type": "ListItem", "position": 3, "name": service.title, "item": `https://kirkhall-wall-coatings.co.uk/${service.slug}` }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kirkhallcoatingsltd.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://kirkhallcoatingsltd.com/services" },
+        { "@type": "ListItem", "position": 3, "name": service.title, "item": `https://kirkhallcoatingsltd.com/${service.slug}` }
       ]
     },
     ...(faqSchema ? [faqSchema] : []),
@@ -206,7 +206,7 @@ const ServiceDetailPage = () => {
       <SEO 
         title={service.metaTitle}
         description={service.metaDescription}
-        canonical={`https://kirkhall-wall-coatings.co.uk/${service.slug}`}
+        canonical={`https://kirkhallcoatingsltd.com/${service.slug}`}
         type="service"
         schema={schemas}
         image={service.image}

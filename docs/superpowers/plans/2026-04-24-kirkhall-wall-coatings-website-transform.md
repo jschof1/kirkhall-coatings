@@ -351,7 +351,7 @@ Expected: FAIL until page-level SEO strings are updated.
 <SEO
   title="Kirkhall Wall Coatings | External Wall, Roof & uPVC Specialists"
   description="Wall coatings refurbishment, roof refurbishment, and uPVC spraying across Motherwell, North Lanarkshire, and Glasgow."
-  canonical="https://kirkhall-wall-coatings.co.uk/"
+  canonical="https://kirkhallcoatingsltd.com/"
 />
 ```
 

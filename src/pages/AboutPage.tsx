@@ -72,7 +72,7 @@ const AboutPage = () => {
       <SEO 
         title="About Kirkhall Wall Coatings | External Coatings Specialists"
         description="Learn about Kirkhall Wall Coatings and our prep-first approach to external wall coatings and uPVC window and door spraying across North Lanarkshire and Glasgow."
-        canonical="https://kirkhall-wall-coatings.co.uk/about"
+        canonical="https://kirkhallcoatingsltd.com/about"
       />
 
       <ScrollProgress />

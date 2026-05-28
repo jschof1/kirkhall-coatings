@@ -104,7 +104,7 @@ export const siteConfig = {
 
   // SEO Defaults
   seo: {
-    siteUrl: "https://kirkhall-wall-coatings.co.uk",
+    siteUrl: "https://kirkhallcoatingsltd.com",
     titleSuffix: "| Kirkhall Wall Coatings",
     defaultTitle: "Kirkhall Wall Coatings | External Wall & uPVC Window Specialists",
     defaultDescription:

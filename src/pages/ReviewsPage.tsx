@@ -106,7 +106,7 @@ const ReviewsPage = () => {
       <SEO 
         title={`Customer Reviews & Testimonials | ${siteConfig.business.name}`}
         description={`Read real reviews from customers across Motherwell, North Lanarkshire, and Glasgow for external wall coatings and uPVC window and door spraying.`}
-        canonical="https://kirkhall-wall-coatings.co.uk/reviews"
+        canonical="https://kirkhallcoatingsltd.com/reviews"
       />
 
       <TopBanner />

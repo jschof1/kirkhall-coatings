@@ -7,7 +7,7 @@
 ## Learned Workspace Facts
 
 - Remote Git repository: https://github.com/jschof1/kirkhall-coatings
-- Canonical site URL in app config is https://kirkhall-wall-coatings.co.uk (SEO and schema should stay consistent with it).
+- Canonical site URL in app config is https://kirkhallcoatingsltd.com (SEO and schema should stay consistent with it).
 - Client brief and verified public-footprint notes live in docs/kKrkhall-Coatings.md (filename keeps the brief spelling kKrkhall; public listings use Kirkhall).
 - Webhook endpoints are documented in docs/webhooks.md and mirrored in src/data/siteConfig.ts under siteConfig.webhooks; tests/content-integrity.spec.ts enforces doc and config alignment.
 - Site positioning is Kirkhall Wall Coatings: external wall coatings and uPVC window and door spraying across Motherwell, North Lanarkshire, and Glasgow.

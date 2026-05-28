@@ -70,7 +70,7 @@ const ServicesPage = () => {
       <SEO 
         title="Services | Kirkhall Wall Coatings"
         description="External wall coatings and uPVC window and door spraying across Motherwell, North Lanarkshire, and Glasgow."
-        canonical="https://kirkhall-wall-coatings.co.uk/services"
+        canonical="https://kirkhallcoatingsltd.com/services"
       />
 
       <ScrollProgress />
