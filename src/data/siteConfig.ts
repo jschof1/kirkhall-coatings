@@ -1,7 +1,7 @@
 export const siteSettings = {
   businessName: "Kirkhall Wall Coatings",
-  phone: "+44 7427 915070",
-  phoneFormatted: "+447427915070",
+  phone: "+44 7712 311478",
+  phoneFormatted: "+447712311478",
   email: "kvaledrywall@yahoo.co.uk",
   address: "Kirkhall Road, Newarthill, Motherwell, ML1 5BG",
   feedbackWebhook:
