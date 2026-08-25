@@ -24,6 +24,7 @@ import AboutPage from "./pages/AboutPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import AddCustomerPage from "./pages/AddCustomerPage";
 import MarketingFormPage from "./pages/MarketingFormPage";
+import OptionalServicesConsent from "./components/OptionalServicesConsent";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +34,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
+        <OptionalServicesConsent />
         {/* <ExitIntentPopup /> */}
         <BrowserRouter>
           <ScrollToTop />

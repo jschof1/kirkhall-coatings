@@ -43,7 +43,7 @@ const PrivacyPolicyPage = () => {
                   <li><strong>Contact details:</strong> your name, phone number, email address, postcode, and address when you contact us or request a quote.</li>
                   <li><strong>Project details:</strong> information about your property, decorating requirements, timings, budget range, photos, and any notes you give us so we can price and deliver the work.</li>
                   <li><strong>Communication records:</strong> emails, call notes, enquiry forms, feedback, and review-related messages.</li>
-                  <li><strong>Website usage data:</strong> technical information such as device type, browser type, IP address, pages visited, and referral source collected through normal website logs and any analytics tools we use.</li>
+                  <li><strong>Website usage data:</strong> if you choose optional website services, aggregated information about page visits and browser use may be processed to help us understand website use.</li>
                   <li><strong>CRM and chat data:</strong> information submitted through our website forms and chat tools, which may be processed through LeadConnector services used to manage enquiries and follow-up.</li>
                 </ul>
               </section>
@@ -55,7 +55,7 @@ const PrivacyPolicyPage = () => {
                   <li>you complete a quote, contact, discount, or feedback form on our website</li>
                   <li>you call, email, or message us directly</li>
                   <li>we visit your property, prepare a quotation, or carry out work for you</li>
-                  <li>you browse our website and standard technical data is collected automatically</li>
+                  <li>you choose to use our optional analytics or chat service</li>
                 </ul>
               </section>
 
@@ -130,7 +130,10 @@ const PrivacyPolicyPage = () => {
               <section className="space-y-4">
                 <h2 className="text-xl font-bold text-foreground">10. Cookies and Third-Party Tools</h2>
                 <p>
-                  Our website may use cookies or similar technologies for essential site functionality, basic analytics, and embedded third-party tools. This includes LeadConnector-powered forms and chat widgets used to capture and manage enquiries. You can control cookies through your browser settings, although some parts of the site may not work as intended if certain cookies are blocked.
+                  Our site records your optional-services preference locally so it can respect that choice on future visits. Optional services are disabled by default. If you choose to accept them, we load Plausible analytics from our analytics provider to understand aggregated website use, and LeadConnector chat so that you can use it to contact us. We do not intentionally send the contents of our website forms to Plausible analytics.
+                </p>
+                <p>
+                  Our quote, contact, discount, and feedback forms are separate from this optional-services choice: they are submitted only when you complete and send them, and are handled through the LeadConnector services described above. To change an earlier optional-services choice, clear this website&apos;s stored site data in your browser and visit again.
                 </p>
               </section>
 
