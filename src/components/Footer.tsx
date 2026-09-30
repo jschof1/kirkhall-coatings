@@ -1,3 +1,4 @@
+import PoweredByUKTradeLeads from './layout/PoweredByUKTradeLeads';
 import { Phone, MapPin, Clock, ArrowUp } from "lucide-react";
 import { Link } from "react-router-dom";
 import { areas } from "@/data/areas";
@@ -18,6 +19,7 @@ const Footer = () => {
   };
 
   return (
+    <>
     <footer className="bg-gradient-editorial text-primary-foreground relative overflow-hidden">
       {/* Accent line */}
       <div className="h-1 bg-accent" />
@@ -181,6 +183,8 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    <PoweredByUKTradeLeads />
+    </>
   );
 };
 
